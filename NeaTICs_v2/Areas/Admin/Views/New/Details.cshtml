@@ -1,0 +1,37 @@
+﻿@model NeaTICs_v2.Models.New
+
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<h2>Detalles</h2>
+
+<fieldset>
+    <legend>Noticia</legend>
+
+    <div class="col-xs-8 col-md-offset-1">
+        <dl class="dl-horizontal">
+            <dt>@Html.DisplayNameFor(model => model.Title)</dt>
+            <dd>@Html.DisplayFor(model => model.Title)</dd>
+            <dt>@Html.DisplayNameFor(model => model.Content)</dt>
+            <dd>@Html.DisplayFor(model => model.Content)</dd>
+            <dt>@Html.DisplayNameFor(model => model.CreatedAt)</dt>
+            <dd>@Html.DisplayFor(model => model.CreatedAt)</dd>
+            <dt>@Html.DisplayNameFor(model => model.UpdatedAt)</dt>
+            <dd>@Html.DisplayFor(model => model.UpdatedAt)</dd>
+            <dt>@Html.DisplayNameFor(model => model.Url)</dt>
+            <dd>@Html.DisplayFor(model => model.Url)</dd>
+            <dt><br /></dt>
+            <dd><br /></dd>
+            <dd>
+                <div class="display-field">
+                    @Html.Raw("<img src=" + Model.ImageUrl + " style='width: 300px;'/>");
+                </div>
+            </dd>
+        </dl>
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id=Model.ID }) |
+    @Html.ActionLink("Volver a Listado", "Index")
+</p>

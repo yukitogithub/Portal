@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutSection_AboutContent" xml:space="preserve">
+    <value>This website brings together all the information in Argentina’s Northeastern Region related to the Information and Communication Technologies (ICT).</value>
+  </data>
+  <data name="AboutSection_LeftColumn" xml:space="preserve">
+    <value>Website NEA Tics</value>
+  </data>
+  <data name="AboutSection_SponsorsContent" xml:space="preserve">
+    <value>Institutions who helped carry out this project:</value>
+  </data>
+  <data name="AboutSection_SponsorsLabel" xml:space="preserve">
+    <value>Sponsors</value>
+  </data>
+  <data name="AboutSection_Sponsor_SSICh" xml:space="preserve">
+    <value>-  Programa SSICh - Ministerio de Industria, Empleo y Trabajo</value>
+  </data>
+  <data name="AboutSection_WhatToFindContent" xml:space="preserve">
+    <value>On this website you will find exclusive content for the different profiles of the ITC world, such as: companies, entrepreneurs, students, and guests.</value>
+  </data>
+  <data name="AboutSection_WhatToFindLabel" xml:space="preserve">
+    <value>What you'll find</value>
+  </data>
+  <data name="AbuotSection_AboutLabel" xml:space="preserve">
+    <value>About the website</value>
+  </data>
+  <data name="ContactUsSection_EmailInput" xml:space="preserve">
+    <value>Enter your e-mail</value>
+  </data>
+  <data name="ContactUsSection_EmailLabel" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="ContactUsSection_MessageLabel" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="ContactUsSection_NameInput" xml:space="preserve">
+    <value>Enter your name</value>
+  </data>
+  <data name="ContactUsSection_NameLabel" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ContactUsSection_SubjectInput" xml:space="preserve">
+    <value>Enter subject</value>
+  </data>
+  <data name="ContactUsSection_SubjectLabel" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="ContactUsSection_SubmiButton" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="ContactUsSecttion_LeftColumn" xml:space="preserve">
+    <value>Fill out the contact form to leave us a message</value>
+  </data>
+  <data name="Footer_Development" xml:space="preserve">
+    <value>Design: "Los #22" - Development: "Los implementadores" ©Informatorio 2013</value>
+  </data>
+  <data name="Home_ProfileList_Developer" xml:space="preserve">
+    <value>Developer</value>
+  </data>
+  <data name="Home_ProfileList_Enterprise" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="Home_ProfileList_Student" xml:space="preserve">
+    <value>Student</value>
+  </data>
+  <data name="Home_ProfilesList" xml:space="preserve">
+    <value>Choose your profile</value>
+  </data>
+  <data name="InformatorioSection_AboutContent" xml:space="preserve">
+    <value>The Informatorio is the Province of Chaco’s IT training laboratory. The lab is a project that originated from the collaboration of the University, Government, and Companies engaged in development of Software and IT Services.</value>
+  </data>
+  <data name="InformatorioSection_AboutLabel" xml:space="preserve">
+    <value>What is it?</value>
+  </data>
+  <data name="InformatorioSection_ContactUsContent" xml:space="preserve">
+    <value>E-mail: informatoriochaco@gmail.com</value>
+  </data>
+  <data name="InformatorioSection_ContactUsLabel" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="InformatorioSection_ExperiencesButton" xml:space="preserve">
+    <value>EXPERIENCES</value>
+  </data>
+  <data name="InformatorioSection_GalleryButton" xml:space="preserve">
+    <value>GALLERY</value>
+  </data>
+  <data name="InformatorioSection_LeftColumn" xml:space="preserve">
+    <value>Informatorio Chaco</value>
+  </data>
+  <data name="InformatorioSection_ObjectivesContent" xml:space="preserve">
+    <value>El objetivo principal del laboratorio es capacitar a jóvenes fomentando el desarrollo de las habilidades técnicas (programación, metodologías de desarrollo, herramientas y técnicas, etc.) y blandas (colaboración, trabajo en equipo, flexibilidad, etc.), necesarias para industria creciente de SSI. Así mismo, se dictan cursos de diversas temáticas relacionadas.</value>
+  </data>
+  <data name="InformatorioSection_ObjectivesLabel" xml:space="preserve">
+    <value>Goals</value>
+  </data>
+  <data name="InformatorioSection_ParticipateContent" xml:space="preserve">
+    <value>Syllabus</value>
+  </data>
+  <data name="InformatorioSection_ParticipateLabel" xml:space="preserve">
+    <value>Join</value>
+  </data>
+  <data name="InformatorioSection_ProyectsButton" xml:space="preserve">
+    <value>PROJECTS</value>
+  </data>
+  <data name="InformatorioSection_RightColumn" xml:space="preserve">
+    <value>Frondizi 174, 4th floor, Edificio Bolsa de Comercio del Chaco. </value>
+  </data>
+  <data name="InformatorioSection_TeachersContent" xml:space="preserve">
+    <value>Madia Burgos (2013 - 2014)</value>
+  </data>
+  <data name="InformatorioSection_TeachersLabel" xml:space="preserve">
+    <value>Teachers</value>
+  </data>
+  <data name="MenuItem_About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="MenuItem_ContactUs" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="MenuItem_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="MenuItem_Informatorio" xml:space="preserve">
+    <value>Informatorio</value>
+  </data>
+  <data name="MenuItem_PoloITChaco" xml:space="preserve">
+    <value>Polo IT Chaco</value>
+  </data>
+  <data name="MenuSearchBar" xml:space="preserve">
+    <value>What are you looking for?</value>
+  </data>
+  <data name="PoloITChacoSection_AboutContent" xml:space="preserve">
+    <value>What is a technopole?</value>
+  </data>
+  <data name="PoloITChacoSection_AboutLabel" xml:space="preserve">
+    <value>What is it?</value>
+  </data>
+  <data name="PoloITChacoSection_ContactUsContent" xml:space="preserve">
+    <value>E-mail: contacto@polochaco.com.ar</value>
+  </data>
+  <data name="PoloITChacoSection_ContactUsLabel" xml:space="preserve">
+    <value>Contacto</value>
+  </data>
+  <data name="PoloITChacoSection_LeftColumn" xml:space="preserve">
+    <value>Polo IT Chaco</value>
+  </data>
+  <data name="PoloITChacoSection_ParticipateContent" xml:space="preserve">
+    <value>Join: contacto@polochaco.com.ar</value>
+  </data>
+  <data name="PoloITChacoSection_ParticipateLabel" xml:space="preserve">
+    <value>Join</value>
+  </data>
+  <data name="PoloITChacoSection_VisionContent" xml:space="preserve">
+    <value>We aspire to be an international information center of scientific development and technological innovation, considering the Regional System of Innovation as a concrete example, and positioning Argentina’s Northeastern Region in a privileged place.</value>
+  </data>
+  <data name="PoloITChacoSection_VisionLabel" xml:space="preserve">
+    <value>Vision</value>
+  </data>
+  <data name="SliderFooter_EventsLabel" xml:space="preserve">
+    <value>Events</value>
+  </data>
+  <data name="SliderFooter_NewsLabel" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>It also provides users the contact information to get in touch with industry professionals (designers, freelance software developers/programmers, etc.), companies or organizations that provide IT products and services, educational institutions and organizations dedicated to fomenting the industry of Information and Communications Technologies.</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>The information on the site includes descriptive publications and news about the industry, contact information, etc.</value>
+  </data>
+  <data name="String10" xml:space="preserve">
+    <value>Software Engineering</value>
+  </data>
+  <data name="String11" xml:space="preserve">
+    <value>Advanced Technologies Programming:</value>
+  </data>
+  <data name="String12" xml:space="preserve">
+    <value>.NET Technologies</value>
+  </data>
+  <data name="String13" xml:space="preserve">
+    <value>Java Technologies</value>
+  </data>
+  <data name="String14" xml:space="preserve">
+    <value>PHP Technologies</value>
+  </data>
+  <data name="String15" xml:space="preserve">
+    <value>English training</value>
+  </data>
+  <data name="String16" xml:space="preserve">
+    <value>Resistencia, Chaco - Argentina</value>
+  </data>
+  <data name="String17" xml:space="preserve">
+    <value>LinkedIn:</value>
+  </data>
+  <data name="String18" xml:space="preserve">
+    <value>Twitter: --</value>
+  </data>
+  <data name="String19" xml:space="preserve">
+    <value>Luciano Escudero (2012 - 2013 - 2014)</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>A bit of history</value>
+  </data>
+  <data name="String20" xml:space="preserve">
+    <value>Profile: view</value>
+  </data>
+  <data name="String21" xml:space="preserve">
+    <value>Twitter: --</value>
+  </data>
+  <data name="String22" xml:space="preserve">
+    <value>Gustavo Gimenez (2013 - 2014)</value>
+  </data>
+  <data name="String23" xml:space="preserve">
+    <value>Profile: view</value>
+  </data>
+  <data name="String24" xml:space="preserve">
+    <value>Twitter: --</value>
+  </data>
+  <data name="String25" xml:space="preserve">
+    <value>Noelia Pinto (2012 - 2013 - 2014)</value>
+  </data>
+  <data name="String26" xml:space="preserve">
+    <value>Profile: view          Twitter: view        Diego Ramirez (2014)</value>
+  </data>
+  <data name="String27" xml:space="preserve">
+    <value>LinkedIn:</value>
+  </data>
+  <data name="String28" xml:space="preserve">
+    <value>Profile: --</value>
+  </data>
+  <data name="String29" xml:space="preserve">
+    <value>Twitter: --        Gilda R. Romero (2013 - 2014)</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>The idea of creating a place to encourage the growth and specialization  of human capital in the IT Industry was set in motion by the Human Resources Committee--created during the 1st Foro de Competitividad de la Industria de Software y Servicios Informáticos (SSI) del Chaco, which took place in the years 2009 and 2010.</value>
+  </data>
+  <data name="String30" xml:space="preserve">
+    <value>Profile: view</value>
+  </data>
+  <data name="String31" xml:space="preserve">
+    <value>Twitter: view</value>
+  </data>
+  <data name="String32" xml:space="preserve">
+    <value>Darío Vallejos (2012 - 2013 - 2014)</value>
+  </data>
+  <data name="String33" xml:space="preserve">
+    <value>Profile: view          Twitter: --</value>
+  </data>
+  <data name="String34" xml:space="preserve">
+    <value>A technopole is a group of technological industries, typically working together with educational and  research institutions, located in a common physical location.</value>
+  </data>
+  <data name="String35" xml:space="preserve">
+    <value>A technopole’s main goal is to bring universities and the industry closer together in order to promote the development of local solutions with the latest technology, providing knowledge and creating new job opportunities for the human capital of the region.</value>
+  </data>
+  <data name="String36" xml:space="preserve">
+    <value>The conceptual model originates from the traditional ideology of the bond formed by University-Industry-Government, academically known as Sabato’s Triangle, and it has now  extended to the Regional Innovation System philosophy.</value>
+  </data>
+  <data name="String37" xml:space="preserve">
+    <value>Facebook: PoloITChaco</value>
+  </data>
+  <data name="String38" xml:space="preserve">
+    <value>Twitter: PoloITChaco</value>
+  </data>
+  <data name="String39" xml:space="preserve">
+    <value>The Polo Tecnológico (technopole) Chaco has been created and situated in a strategically placed and developed area, with the pursuit of providing a prestigious environment and attracting different emerging and cutting edge companies in the IT market.</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>In 2011, the Polo Tecnológico Chaco--representative of the industry of Information and Communication Technologies, the Universidad Tecnológica Nacional - Facultad Regional Resistencia (UTN - FRRe), and the company Sistemas Globales S.A. (Globant) were brought together to go forward with the plan to set up Chaco’s IT laboratory. The first “Advanced Application Software Development Course” started a year later.</value>
+  </data>
+  <data name="String40" xml:space="preserve">
+    <value>The image of the Polo Tecnológico (technopole) Chaco foments an implicit and explicit collaboration between local and/or regional agents in the first place and, in second place, between national and foreign agents.</value>
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value>Facebook: informatorio</value>
+  </data>
+  <data name="String6" xml:space="preserve">
+    <value>Twitter: N/A</value>
+  </data>
+  <data name="String7" xml:space="preserve">
+    <value>The Advanced Application Software Development Course covers the following topics:</value>
+  </data>
+  <data name="String8" xml:space="preserve">
+    <value>Programming Fundamentals</value>
+  </data>
+  <data name="String9" xml:space="preserve">
+    <value>Data Management</value>
+  </data>
+</root>

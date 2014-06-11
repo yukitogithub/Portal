@@ -1,0 +1,73 @@
+﻿@{
+    ViewBag.Title = "News";
+}
+
+<h2>News</h2>
+
+<div id="content">
+
+    <nav class="navbar navbar-default" style="background-color: #AEAEAE; color: white; min-height: 35px !important; height: 35px; padding-top: 0px !important;" role="navigation">
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="container">
+                <ul id="nav-news-events" class="nav navbar-nav">
+                    <li><a ID="HyperLink1" href="#" class="nne-active" data-toggle="tab"></a></li>
+                    <li><a ID="HyperLink6" href="#" data-toggle="tab"></a></li>
+                </ul>
+            </div>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+
+    <div class="row" style="height: 900px; margin-top: 40px; clear: both;">
+        <div class="col-md-2" style="height: 80px;">
+            <span class="date pull-right" style="width: 68px;">
+                <h3 id="h3Day" ></h3>
+                <p id="pMonth" ></p>
+            </span>
+        </div>
+
+        <div class="col-md-4 current-new-event">
+            <p id="pDate" class="current-date"></p>
+
+            <h3 id="h3Title"></h3>
+            <img id="imgNews" src="">
+            <p id="pContent">
+            </p>
+
+            <div>
+                <div class="pull-left">
+                    <ul>
+                        <li>
+                            <a ID="btnlnkNew" target="_blank"></a>
+                        </li>
+                        <li>
+                            <a ID="HyperLink2" href="#" data-toggle="tab"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="pull-right">
+                    <div class="pull-right">
+                        <a href="#" class="facebook-icon"></a>
+                        <a href="#" class="twitter-icon"></a>
+                        <a href="#" class="gplus-icon"></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="NEA-hr">
+        </div>
+
+        <div class="col-md-6">
+            <p></p>
+            <div ID="pnlNews" class="preview-news-events">
+
+            </div>
+
+            <hr class="NEA-hr other">
+
+        </div>
+    </div>
+
+</div>

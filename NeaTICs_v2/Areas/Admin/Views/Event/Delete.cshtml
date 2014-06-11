@@ -1,0 +1,54 @@
+﻿@model NeaTICs_v2.Models.Events
+
+@{
+    ViewBag.Title = "Borrar";
+}
+
+<h2>Borrar</h2>
+
+<h3>¿Está seguro de borrar el evento?</h3>
+<fieldset>
+    <legend>Eventos</legend>
+
+    <div class="col-xs-8 col-md-offset-1">
+        <dl class="dl-horizontal">
+            <dt>@Html.DisplayNameFor(model => model.Title)</dt>
+            <dd>@Html.DisplayFor(model => model.Title)</dd>
+            <dt>@Html.DisplayNameFor(model => model.Content)</dt>
+            <dd>@Html.DisplayFor(model => model.Content)</dd>
+            <dt>@Html.DisplayNameFor(model => model.Place)</dt>
+            <dd>@Html.DisplayFor(model => model.Place)</dd>
+            <dt>@Html.DisplayNameFor(model => model.CreateAt)</dt>
+            <dd>@Html.DisplayFor(model => model.CreateAt)</dd>
+            <dt>@Html.DisplayNameFor(model => model.UpdateAt)</dt>
+            <dd>@Html.DisplayFor(model => model.UpdateAt)</dd>
+            <dt>@Html.DisplayNameFor(model => model.StartAt)</dt>
+            <dd>@Html.DisplayFor(model => model.StartAt)</dd>
+            <dt>@Html.DisplayNameFor(model => model.EndAt)</dt>
+            <dd>@Html.DisplayFor(model => model.EndAt)</dd>
+            <dt>@Html.DisplayNameFor(model => model.Url)</dt>
+            <dd>@Html.DisplayFor(model => model.Url)</dd>
+            <dt><br /></dt>
+            <dd><br /></dd>
+            <dd>
+                <div class="display-field">
+                    @Html.Raw("<img src=" + Model.ImageUrl + " style='width: 300px;'/>");
+                </div>
+            </dd>
+            </dl>
+        </div>
+</fieldset>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    
+     <div class="form-group">
+         <div class="col-sm-2">
+             @Html.ActionLink("Volver al Listado", "Index")
+         </div>
+         
+         <div class="col-sm-offset-2 col-sm-8">
+            <input type="submit" value="Borrar" class="btn btn-default" />
+         </div>
+     </div>
+}
