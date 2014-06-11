@@ -1,0 +1,71 @@
+﻿@{
+    ViewBag.Title = "Events";
+}
+
+<h2>Events</h2>
+
+<div id="content">
+
+    <nav class="navbar navbar-default" style="background-color: #AEAEAE; color: white; min-height: 35px !important; height: 35px; padding-top: 0px !important;" role="navigation">
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul id="nav-news-events" class="nav navbar-nav">
+                <li><a href="../web/Noticias">NOTICIAS</a></li>
+                <li><a href="#" class="nne-active">EVENTOS</a></li>
+            </ul>
+
+        </div><!-- /.navbar-collapse -->
+    </nav>
+
+
+    <div class="row" style="height: 900px; margin-top: 40px;">
+        <div class="col-md-2" style="height: 80px;">
+            <span class="date pull-right" style="width: 68px;">
+                <h3 id="h3Day"></h3>
+                <p id="pMonth"></p>
+            </span>
+        </div>
+
+        <div class="col-md-4 current-new-event">
+            <p id="pDate" class="current-date"></p>
+
+            <h3 id="h3Title"></h3>
+            <img id="imgNews" src="">
+            <p id="pContent">
+            </p>
+
+            <div>
+                <div class="pull-left">
+                    <ul>
+                        <li>
+                            <a ID="btnlnkNew" target="_blank">FUENTE</a>
+                        </li>
+                        <li>
+                            <a href="#">COMPARTIR</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="pull-right">
+                    <div class="pull-right">
+                        <a href="#" class="facebook-icon"></a>
+                        <a href="#" class="twitter-icon"></a>
+                        <a href="#" class="gplus-icon"></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="NEA-hr">
+        </div>
+
+        <div class="col-md-6">
+
+            <p style="clear: both;">EVENTOS</p>
+            <div ID="pnlEvents" class="preview-news-events">
+            </div>
+
+            <hr class="NEA-hr other">
+        </div>
+    </div>
+</div>
