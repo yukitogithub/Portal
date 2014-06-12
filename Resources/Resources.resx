@@ -169,7 +169,7 @@
     <value>Contacto</value>
   </data>
   <data name="Footer_Development" xml:space="preserve">
-    <value>Diseño: "Los #22" - Desarrollo: "Los implementadores" ©Informatorio 2013</value>
+    <value>Diseño: "Los #22" - Desarrollo: "Los Implementadores"|"ManiaTICs" ©Informatorio 2013</value>
   </data>
   <data name="Home_ProfileList_Developer" xml:space="preserve">
     <value>Desarrollador</value>
@@ -279,139 +279,142 @@
   <data name="SliderFooter_NewsLabel" xml:space="preserve">
     <value>Noticias</value>
   </data>
-  <data name="String" xml:space="preserve">
+  <data name="AboutSection_AboutContent2" xml:space="preserve">
     <value>Aquí se encuentran los datos para contactar a profesionales de la industria (diseñadores, desarrolladores/programadores freelance, etc.), empresas u organizaciones dedicadas a proveer productos y servicios de SSI, entidades educativas y organizaciones dedicadas al fomento de la industria informática.</value>
   </data>
-  <data name="String1" xml:space="preserve">
+  <data name="AboutSection_WhatToFindContent2" xml:space="preserve">
     <value>También se encontrará información relevante como publicaciones descriptivas y explicativas del sector, datos de contactos, noticias referidas, entre otros.</value>
   </data>
-  <data name="String10" xml:space="preserve">
+  <data name="InformatorioSection_ParticipateContent4" xml:space="preserve">
     <value>Gestión de la Información</value>
   </data>
-  <data name="String11" xml:space="preserve">
+  <data name="InformatorioSection_ParticipateContent5" xml:space="preserve">
     <value>Ingeniería de Software</value>
   </data>
-  <data name="String12" xml:space="preserve">
+  <data name="InformatorioSection_ParticipateContent6" xml:space="preserve">
     <value>Programación avanzada en Tecnologías:</value>
   </data>
-  <data name="String13" xml:space="preserve">
+  <data name="InformatorioSection_ParticipateContent7" xml:space="preserve">
     <value>Tecnologías .NET</value>
   </data>
-  <data name="String14" xml:space="preserve">
+  <data name="InformatorioSection_ParticipateContent8" xml:space="preserve">
     <value>Tecnologías Java</value>
   </data>
-  <data name="String15" xml:space="preserve">
+  <data name="InformatorioSection_ParticipateContent9" xml:space="preserve">
     <value>Tecnologías PHP</value>
   </data>
-  <data name="String16" xml:space="preserve">
+  <data name="InformatorioSection_ParticipateContent10" xml:space="preserve">
     <value>Inglés</value>
   </data>
-  <data name="String17" xml:space="preserve">
+  <data name="InformatorioSection_RightColumn2" xml:space="preserve">
     <value>Resistencia, Chaco - Argentina</value>
   </data>
-  <data name="String18" xml:space="preserve">
+  <data name="InformatorioSection_TeachersContent2" xml:space="preserve">
     <value>LinkedIn:</value>
   </data>
-  <data name="String19" xml:space="preserve">
+  <data name="InformatorioSection_TeachersContent3" xml:space="preserve">
     <value>Twitter: --</value>
   </data>
-  <data name="String2" xml:space="preserve">
-    <value>Completa el forulario para dejarnos tu mensaje</value>
+  <data name="ContactUsSecttion_LeftColumn2" xml:space="preserve">
+    <value>Completa el formulario para dejarnos tú mensaje</value>
   </data>
-  <data name="String20" xml:space="preserve">
+  <data name="InformatorioSection_TeachersContent4" xml:space="preserve">
     <value>Luciano Escudero (2012 - 2013 - 2014)</value>
   </data>
-  <data name="String21" xml:space="preserve">
+  <data name="InformatorioSection_TeachersContent5" xml:space="preserve">
     <value>Perfil: acceder</value>
   </data>
-  <data name="String22" xml:space="preserve">
+  <data name="InformatorioSection_TeachersContent6" xml:space="preserve">
     <value>Twitter: --</value>
   </data>
-  <data name="String23" xml:space="preserve">
+  <data name="InformatorioSection_TeachersContent7" xml:space="preserve">
     <value>Gustavo Gimenez (2013 - 2014)</value>
   </data>
-  <data name="String24" xml:space="preserve">
+  <data name="InformatorioSection_TeachersContent8" xml:space="preserve">
     <value>Perfil: acceder</value>
   </data>
-  <data name="String25" xml:space="preserve">
+  <data name="InformatorioSection_TeachersContent9" xml:space="preserve">
     <value>Twitter: --</value>
   </data>
-  <data name="String26" xml:space="preserve">
+  <data name="InformatorioSection_TeachersContent10" xml:space="preserve">
     <value>Noelia Pinto (2012 - 2013 - 2014)</value>
   </data>
-  <data name="String27" xml:space="preserve">
+  <data name="InformatorioSection_TeachersContent11" xml:space="preserve">
     <value>Perfil: acceder</value>
   </data>
-  <data name="String28" xml:space="preserve">
-    <value>Twitter: acceder        Diego Ramirez (2014)</value>
-  </data>
-  <data name="String29" xml:space="preserve">
-    <value>LinkedIn:</value>
-  </data>
-  <data name="String3" xml:space="preserve">
-    <value>Un poco de historia.</value>
-  </data>
-  <data name="String30" xml:space="preserve">
-    <value>Profile: --</value>
-  </data>
-  <data name="String31" xml:space="preserve">
-    <value>Twitter: --</value>
-  </data>
-  <data name="String32" xml:space="preserve">
-    <value>Gilda R. Romero (2013 - 2014)</value>
-  </data>
-  <data name="String33" xml:space="preserve">
-    <value>Perfil: acceder</value>
-  </data>
-  <data name="String34" xml:space="preserve">
+  <data name="InformatorioSection_TeachersContent12" xml:space="preserve">
     <value>Twitter: acceder</value>
   </data>
-  <data name="String35" xml:space="preserve">
-    <value>Darío Vallejos (2012 - 2013 - 2014)</value>
+  <data name="InformatorioSection_TeachersContent14" xml:space="preserve">
+    <value>LinkedIn:</value>
   </data>
-  <data name="String36" xml:space="preserve">
-    <value>Perfil: acceder</value>
+  <data name="InformatorioSection_AboutContent2" xml:space="preserve">
+    <value>Un poco de historia:</value>
   </data>
-  <data name="String37" xml:space="preserve">
+  <data name="InformatorioSection_TeachersContent15" xml:space="preserve">
+    <value>Profile: --</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent16" xml:space="preserve">
     <value>Twitter: --</value>
   </data>
-  <data name="String38" xml:space="preserve">
+  <data name="InformatorioSection_TeachersContent17" xml:space="preserve">
+    <value>Gilda R. Romero (2013 - 2014)</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent18" xml:space="preserve">
+    <value>Perfil: acceder</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent19" xml:space="preserve">
+    <value>Twitter: acceder</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent20" xml:space="preserve">
+    <value>Darío Vallejos (2012 - 2013 - 2014)</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent21" xml:space="preserve">
+    <value>Perfil: acceder</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent22" xml:space="preserve">
+    <value>Twitter: --</value>
+  </data>
+  <data name="PoloITChacoSection_AboutContent2" xml:space="preserve">
     <value>Un Polo Tecnológico es un conjunto de industrias tecnológicas, generalmente acompañadas de instituciones educativas y de investigación, situadas en una ubicación física común.</value>
   </data>
-  <data name="String39" xml:space="preserve">
+  <data name="PoloITChacoSection_AboutContent3" xml:space="preserve">
     <value>El principal objetivo de un Polo Tecnológico es acercar las universidades y la industria para fomentar el desarrollo de soluciones locales con tecnología de punta, aportando conocimientos y generando nuevas oportunidades de trabajo para el capital humano regional.</value>
   </data>
-  <data name="String4" xml:space="preserve">
+  <data name="InformatorioSection_AboutContent3" xml:space="preserve">
     <value>La comisión de Recursos Humanos, surgida a partir del 1er Foro de Competitividad de  la Industria de Software y Servicios Informáticos (SSI) del Chaco, llevado a cabo en los años 2009 y 2010, determinó la creación de un espacio para el crecimiento y la especialización del capital humano en la Industria SSI.</value>
   </data>
-  <data name="String40" xml:space="preserve">
+  <data name="PoloITChacoSection_AboutContent4" xml:space="preserve">
     <value>El modelo conceptual parte de la ideología del tradicional vínculo Universidad-Empresa-Gobierno, denominado académicamente Triángulo de Sábato y, actualmente, se ha extendido a la filosofía Sistema Regional de Innovación.</value>
   </data>
-  <data name="String41" xml:space="preserve">
+  <data name="PoloITChacoSection_ContactUsContent2" xml:space="preserve">
     <value>Facebook: PoloITChaco</value>
   </data>
-  <data name="String42" xml:space="preserve">
+  <data name="PoloITChacoSection_ContactUsContent3" xml:space="preserve">
     <value>Twitter: PoloITChaco</value>
   </data>
-  <data name="String43" xml:space="preserve">
+  <data name="PoloITChacoSection_VisionContent2" xml:space="preserve">
     <value>El Polo Tecnológico Chaco ha sido formado y ubicado en un área estratégicamente localizada y desarrollada, en pos de ofrecer un entorno de prestigio para atraer a empresas, en general, de alta tecnología, tecnologías emergentes o de punta.</value>
   </data>
-  <data name="String44" xml:space="preserve">
+  <data name="PoloITChacoSection_VisionContent3" xml:space="preserve">
     <value>La figura del Polo Tecnológico promueve una colaboración implícita y explícita entre los agentes económicos locales y/o regionales en primer término y, nacionales y extranjeros en segundo término.</value>
   </data>
-  <data name="String5" xml:space="preserve">
+  <data name="InformatorioSection_AboutContent4" xml:space="preserve">
     <value>En el año 2011, se convocó al Polo Tecnológico Chaco, la entidad representante de la industria de Tecnologías de la Información y Comunicaciones (TIC), a la Universidad Tecnológica Nacional - Facultad Regional Resistencia (UTN - FRRe) y, a la Empresa Sistemas Globales S.A. (Globant) para  avanzar en la creación del Laboratorio Informático del Chaco. Al año siguiente, se dió inicio al 1er ciclo del “Curso de Desarrollo Avanzado de aplicaciones Informáticas”.</value>
   </data>
-  <data name="String6" xml:space="preserve">
+  <data name="InformatorioSection_ContactUsContent2" xml:space="preserve">
     <value>Facebook: informatorio</value>
   </data>
-  <data name="String7" xml:space="preserve">
+  <data name="InformatorioSection_ContactUsContent3" xml:space="preserve">
     <value>Twitter: N/A</value>
   </data>
-  <data name="String8" xml:space="preserve">
+  <data name="InformatorioSection_ParticipateContent2" xml:space="preserve">
     <value>El Curso de Desarrollo Avanzado de Aplicaciones Informáticas contempla los siguientes Módulos:</value>
   </data>
-  <data name="String9" xml:space="preserve">
+  <data name="InformatorioSection_ParticipateContent3" xml:space="preserve">
     <value>Fundamentos de la programación</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent13" xml:space="preserve">
+    <value>Diego Ramirez (2014)</value>
   </data>
 </root>

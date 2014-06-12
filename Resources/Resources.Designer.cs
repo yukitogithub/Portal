@@ -70,6 +70,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Aquí se encuentran los datos para contactar a profesionales de la industria (diseñadores, desarrolladores/programadores freelance, etc.), empresas u organizaciones dedicadas a proveer productos y servicios de SSI, entidades educativas y organizaciones dedicadas al fomento de la industria informática..
+        /// </summary>
+        internal static string AboutSection_AboutContent2 {
+            get {
+                return ResourceManager.GetString("AboutSection_AboutContent2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Portal NEA Tics.
         /// </summary>
         internal static string AboutSection_LeftColumn {
@@ -111,6 +120,15 @@ namespace Resources {
         internal static string AboutSection_WhatToFindContent {
             get {
                 return ResourceManager.GetString("AboutSection_WhatToFindContent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a También se encontrará información relevante como publicaciones descriptivas y explicativas del sector, datos de contactos, noticias referidas, entre otros..
+        /// </summary>
+        internal static string AboutSection_WhatToFindContent2 {
+            get {
+                return ResourceManager.GetString("AboutSection_WhatToFindContent2", resourceCulture);
             }
         }
         
@@ -214,7 +232,16 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Diseño: &quot;Los #22&quot; - Desarrollo: &quot;Los implementadores&quot; ©Informatorio 2013.
+        ///   Busca una cadena traducida similar a Completa el formulario para dejarnos tú mensaje.
+        /// </summary>
+        internal static string ContactUsSecttion_LeftColumn2 {
+            get {
+                return ResourceManager.GetString("ContactUsSecttion_LeftColumn2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Diseño: &quot;Los #22&quot; - Desarrollo: &quot;Los Implementadores&quot;|&quot;ManiaTICs&quot; ©Informatorio 2013.
         /// </summary>
         internal static string Footer_Development {
             get {
@@ -268,6 +295,33 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Un poco de historia:.
+        /// </summary>
+        internal static string InformatorioSection_AboutContent2 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_AboutContent2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La comisión de Recursos Humanos, surgida a partir del 1er Foro de Competitividad de  la Industria de Software y Servicios Informáticos (SSI) del Chaco, llevado a cabo en los años 2009 y 2010, determinó la creación de un espacio para el crecimiento y la especialización del capital humano en la Industria SSI..
+        /// </summary>
+        internal static string InformatorioSection_AboutContent3 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_AboutContent3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a En el año 2011, se convocó al Polo Tecnológico Chaco, la entidad representante de la industria de Tecnologías de la Información y Comunicaciones (TIC), a la Universidad Tecnológica Nacional - Facultad Regional Resistencia (UTN - FRRe) y, a la Empresa Sistemas Globales S.A. (Globant) para  avanzar en la creación del Laboratorio Informático del Chaco. Al año siguiente, se dió inicio al 1er ciclo del “Curso de Desarrollo Avanzado de aplicaciones Informáticas”..
+        /// </summary>
+        internal static string InformatorioSection_AboutContent4 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_AboutContent4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a ¿Qué es?.
         /// </summary>
         internal static string InformatorioSection_AboutLabel {
@@ -282,6 +336,24 @@ namespace Resources {
         internal static string InformatorioSection_ContactUsContent {
             get {
                 return ResourceManager.GetString("InformatorioSection_ContactUsContent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Facebook: informatorio.
+        /// </summary>
+        internal static string InformatorioSection_ContactUsContent2 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_ContactUsContent2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Twitter: N/A.
+        /// </summary>
+        internal static string InformatorioSection_ContactUsContent3 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_ContactUsContent3", resourceCulture);
             }
         }
         
@@ -349,6 +421,87 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Inglés.
+        /// </summary>
+        internal static string InformatorioSection_ParticipateContent10 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_ParticipateContent10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El Curso de Desarrollo Avanzado de Aplicaciones Informáticas contempla los siguientes Módulos:.
+        /// </summary>
+        internal static string InformatorioSection_ParticipateContent2 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_ParticipateContent2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Fundamentos de la programación.
+        /// </summary>
+        internal static string InformatorioSection_ParticipateContent3 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_ParticipateContent3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Gestión de la Información.
+        /// </summary>
+        internal static string InformatorioSection_ParticipateContent4 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_ParticipateContent4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Ingeniería de Software.
+        /// </summary>
+        internal static string InformatorioSection_ParticipateContent5 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_ParticipateContent5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Programación avanzada en Tecnologías:.
+        /// </summary>
+        internal static string InformatorioSection_ParticipateContent6 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_ParticipateContent6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Tecnologías .NET.
+        /// </summary>
+        internal static string InformatorioSection_ParticipateContent7 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_ParticipateContent7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Tecnologías Java.
+        /// </summary>
+        internal static string InformatorioSection_ParticipateContent8 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_ParticipateContent8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Tecnologías PHP.
+        /// </summary>
+        internal static string InformatorioSection_ParticipateContent9 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_ParticipateContent9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Participar.
         /// </summary>
         internal static string InformatorioSection_ParticipateLabel {
@@ -376,11 +529,209 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Resistencia, Chaco - Argentina.
+        /// </summary>
+        internal static string InformatorioSection_RightColumn2 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_RightColumn2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Madia Burgos (2013 - 2014).
         /// </summary>
         internal static string InformatorioSection_TeachersContent {
             get {
                 return ResourceManager.GetString("InformatorioSection_TeachersContent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Noelia Pinto (2012 - 2013 - 2014).
+        /// </summary>
+        internal static string InformatorioSection_TeachersContent10 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_TeachersContent10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Perfil: acceder.
+        /// </summary>
+        internal static string InformatorioSection_TeachersContent11 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_TeachersContent11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Twitter: acceder.
+        /// </summary>
+        internal static string InformatorioSection_TeachersContent12 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_TeachersContent12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Diego Ramirez (2014).
+        /// </summary>
+        internal static string InformatorioSection_TeachersContent13 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_TeachersContent13", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a LinkedIn:.
+        /// </summary>
+        internal static string InformatorioSection_TeachersContent14 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_TeachersContent14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Profile: --.
+        /// </summary>
+        internal static string InformatorioSection_TeachersContent15 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_TeachersContent15", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Twitter: --.
+        /// </summary>
+        internal static string InformatorioSection_TeachersContent16 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_TeachersContent16", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Gilda R. Romero (2013 - 2014).
+        /// </summary>
+        internal static string InformatorioSection_TeachersContent17 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_TeachersContent17", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Perfil: acceder.
+        /// </summary>
+        internal static string InformatorioSection_TeachersContent18 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_TeachersContent18", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Twitter: acceder.
+        /// </summary>
+        internal static string InformatorioSection_TeachersContent19 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_TeachersContent19", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a LinkedIn:.
+        /// </summary>
+        internal static string InformatorioSection_TeachersContent2 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_TeachersContent2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Darío Vallejos (2012 - 2013 - 2014).
+        /// </summary>
+        internal static string InformatorioSection_TeachersContent20 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_TeachersContent20", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Perfil: acceder.
+        /// </summary>
+        internal static string InformatorioSection_TeachersContent21 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_TeachersContent21", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Twitter: --.
+        /// </summary>
+        internal static string InformatorioSection_TeachersContent22 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_TeachersContent22", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Twitter: --.
+        /// </summary>
+        internal static string InformatorioSection_TeachersContent3 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_TeachersContent3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Luciano Escudero (2012 - 2013 - 2014).
+        /// </summary>
+        internal static string InformatorioSection_TeachersContent4 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_TeachersContent4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Perfil: acceder.
+        /// </summary>
+        internal static string InformatorioSection_TeachersContent5 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_TeachersContent5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Twitter: --.
+        /// </summary>
+        internal static string InformatorioSection_TeachersContent6 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_TeachersContent6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Gustavo Gimenez (2013 - 2014).
+        /// </summary>
+        internal static string InformatorioSection_TeachersContent7 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_TeachersContent7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Perfil: acceder.
+        /// </summary>
+        internal static string InformatorioSection_TeachersContent8 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_TeachersContent8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Twitter: --.
+        /// </summary>
+        internal static string InformatorioSection_TeachersContent9 {
+            get {
+                return ResourceManager.GetString("InformatorioSection_TeachersContent9", resourceCulture);
             }
         }
         
@@ -457,6 +808,33 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Un Polo Tecnológico es un conjunto de industrias tecnológicas, generalmente acompañadas de instituciones educativas y de investigación, situadas en una ubicación física común..
+        /// </summary>
+        internal static string PoloITChacoSection_AboutContent2 {
+            get {
+                return ResourceManager.GetString("PoloITChacoSection_AboutContent2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El principal objetivo de un Polo Tecnológico es acercar las universidades y la industria para fomentar el desarrollo de soluciones locales con tecnología de punta, aportando conocimientos y generando nuevas oportunidades de trabajo para el capital humano regional..
+        /// </summary>
+        internal static string PoloITChacoSection_AboutContent3 {
+            get {
+                return ResourceManager.GetString("PoloITChacoSection_AboutContent3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El modelo conceptual parte de la ideología del tradicional vínculo Universidad-Empresa-Gobierno, denominado académicamente Triángulo de Sábato y, actualmente, se ha extendido a la filosofía Sistema Regional de Innovación..
+        /// </summary>
+        internal static string PoloITChacoSection_AboutContent4 {
+            get {
+                return ResourceManager.GetString("PoloITChacoSection_AboutContent4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a ¿Qué es?.
         /// </summary>
         internal static string PoloITChacoSection_AboutLabel {
@@ -471,6 +849,24 @@ namespace Resources {
         internal static string PoloITChacoSection_ContactUsContent {
             get {
                 return ResourceManager.GetString("PoloITChacoSection_ContactUsContent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Facebook: PoloITChaco.
+        /// </summary>
+        internal static string PoloITChacoSection_ContactUsContent2 {
+            get {
+                return ResourceManager.GetString("PoloITChacoSection_ContactUsContent2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Twitter: PoloITChaco.
+        /// </summary>
+        internal static string PoloITChacoSection_ContactUsContent3 {
+            get {
+                return ResourceManager.GetString("PoloITChacoSection_ContactUsContent3", resourceCulture);
             }
         }
         
@@ -520,6 +916,24 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a El Polo Tecnológico Chaco ha sido formado y ubicado en un área estratégicamente localizada y desarrollada, en pos de ofrecer un entorno de prestigio para atraer a empresas, en general, de alta tecnología, tecnologías emergentes o de punta..
+        /// </summary>
+        internal static string PoloITChacoSection_VisionContent2 {
+            get {
+                return ResourceManager.GetString("PoloITChacoSection_VisionContent2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La figura del Polo Tecnológico promueve una colaboración implícita y explícita entre los agentes económicos locales y/o regionales en primer término y, nacionales y extranjeros en segundo término..
+        /// </summary>
+        internal static string PoloITChacoSection_VisionContent3 {
+            get {
+                return ResourceManager.GetString("PoloITChacoSection_VisionContent3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Visión.
         /// </summary>
         internal static string PoloITChacoSection_VisionLabel {
@@ -543,411 +957,6 @@ namespace Resources {
         internal static string SliderFooter_NewsLabel {
             get {
                 return ResourceManager.GetString("SliderFooter_NewsLabel", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Aquí se encuentran los datos para contactar a profesionales de la industria (diseñadores, desarrolladores/programadores freelance, etc.), empresas u organizaciones dedicadas a proveer productos y servicios de SSI, entidades educativas y organizaciones dedicadas al fomento de la industria informática..
-        /// </summary>
-        internal static string String {
-            get {
-                return ResourceManager.GetString("String", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a También se encontrará información relevante como publicaciones descriptivas y explicativas del sector, datos de contactos, noticias referidas, entre otros..
-        /// </summary>
-        internal static string String1 {
-            get {
-                return ResourceManager.GetString("String1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Gestión de la Información.
-        /// </summary>
-        internal static string String10 {
-            get {
-                return ResourceManager.GetString("String10", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Ingeniería de Software.
-        /// </summary>
-        internal static string String11 {
-            get {
-                return ResourceManager.GetString("String11", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Programación avanzada en Tecnologías:.
-        /// </summary>
-        internal static string String12 {
-            get {
-                return ResourceManager.GetString("String12", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Tecnologías .NET.
-        /// </summary>
-        internal static string String13 {
-            get {
-                return ResourceManager.GetString("String13", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Tecnologías Java.
-        /// </summary>
-        internal static string String14 {
-            get {
-                return ResourceManager.GetString("String14", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Tecnologías PHP.
-        /// </summary>
-        internal static string String15 {
-            get {
-                return ResourceManager.GetString("String15", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Inglés.
-        /// </summary>
-        internal static string String16 {
-            get {
-                return ResourceManager.GetString("String16", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Resistencia, Chaco - Argentina.
-        /// </summary>
-        internal static string String17 {
-            get {
-                return ResourceManager.GetString("String17", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a LinkedIn:.
-        /// </summary>
-        internal static string String18 {
-            get {
-                return ResourceManager.GetString("String18", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Twitter: --.
-        /// </summary>
-        internal static string String19 {
-            get {
-                return ResourceManager.GetString("String19", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Completa el forulario para dejarnos tu mensaje.
-        /// </summary>
-        internal static string String2 {
-            get {
-                return ResourceManager.GetString("String2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Luciano Escudero (2012 - 2013 - 2014).
-        /// </summary>
-        internal static string String20 {
-            get {
-                return ResourceManager.GetString("String20", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Perfil: acceder.
-        /// </summary>
-        internal static string String21 {
-            get {
-                return ResourceManager.GetString("String21", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Twitter: --.
-        /// </summary>
-        internal static string String22 {
-            get {
-                return ResourceManager.GetString("String22", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Gustavo Gimenez (2013 - 2014).
-        /// </summary>
-        internal static string String23 {
-            get {
-                return ResourceManager.GetString("String23", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Perfil: acceder.
-        /// </summary>
-        internal static string String24 {
-            get {
-                return ResourceManager.GetString("String24", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Twitter: --.
-        /// </summary>
-        internal static string String25 {
-            get {
-                return ResourceManager.GetString("String25", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Noelia Pinto (2012 - 2013 - 2014).
-        /// </summary>
-        internal static string String26 {
-            get {
-                return ResourceManager.GetString("String26", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Perfil: acceder.
-        /// </summary>
-        internal static string String27 {
-            get {
-                return ResourceManager.GetString("String27", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Twitter: acceder        Diego Ramirez (2014).
-        /// </summary>
-        internal static string String28 {
-            get {
-                return ResourceManager.GetString("String28", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a LinkedIn:.
-        /// </summary>
-        internal static string String29 {
-            get {
-                return ResourceManager.GetString("String29", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Un poco de historia..
-        /// </summary>
-        internal static string String3 {
-            get {
-                return ResourceManager.GetString("String3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Profile: --.
-        /// </summary>
-        internal static string String30 {
-            get {
-                return ResourceManager.GetString("String30", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Twitter: --.
-        /// </summary>
-        internal static string String31 {
-            get {
-                return ResourceManager.GetString("String31", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Gilda R. Romero (2013 - 2014).
-        /// </summary>
-        internal static string String32 {
-            get {
-                return ResourceManager.GetString("String32", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Perfil: acceder.
-        /// </summary>
-        internal static string String33 {
-            get {
-                return ResourceManager.GetString("String33", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Twitter: acceder.
-        /// </summary>
-        internal static string String34 {
-            get {
-                return ResourceManager.GetString("String34", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Darío Vallejos (2012 - 2013 - 2014).
-        /// </summary>
-        internal static string String35 {
-            get {
-                return ResourceManager.GetString("String35", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Perfil: acceder.
-        /// </summary>
-        internal static string String36 {
-            get {
-                return ResourceManager.GetString("String36", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Twitter: --.
-        /// </summary>
-        internal static string String37 {
-            get {
-                return ResourceManager.GetString("String37", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Un Polo Tecnológico es un conjunto de industrias tecnológicas, generalmente acompañadas de instituciones educativas y de investigación, situadas en una ubicación física común..
-        /// </summary>
-        internal static string String38 {
-            get {
-                return ResourceManager.GetString("String38", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a El principal objetivo de un Polo Tecnológico es acercar las universidades y la industria para fomentar el desarrollo de soluciones locales con tecnología de punta, aportando conocimientos y generando nuevas oportunidades de trabajo para el capital humano regional..
-        /// </summary>
-        internal static string String39 {
-            get {
-                return ResourceManager.GetString("String39", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a La comisión de Recursos Humanos, surgida a partir del 1er Foro de Competitividad de  la Industria de Software y Servicios Informáticos (SSI) del Chaco, llevado a cabo en los años 2009 y 2010, determinó la creación de un espacio para el crecimiento y la especialización del capital humano en la Industria SSI..
-        /// </summary>
-        internal static string String4 {
-            get {
-                return ResourceManager.GetString("String4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a El modelo conceptual parte de la ideología del tradicional vínculo Universidad-Empresa-Gobierno, denominado académicamente Triángulo de Sábato y, actualmente, se ha extendido a la filosofía Sistema Regional de Innovación..
-        /// </summary>
-        internal static string String40 {
-            get {
-                return ResourceManager.GetString("String40", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Facebook: PoloITChaco.
-        /// </summary>
-        internal static string String41 {
-            get {
-                return ResourceManager.GetString("String41", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Twitter: PoloITChaco.
-        /// </summary>
-        internal static string String42 {
-            get {
-                return ResourceManager.GetString("String42", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a El Polo Tecnológico Chaco ha sido formado y ubicado en un área estratégicamente localizada y desarrollada, en pos de ofrecer un entorno de prestigio para atraer a empresas, en general, de alta tecnología, tecnologías emergentes o de punta..
-        /// </summary>
-        internal static string String43 {
-            get {
-                return ResourceManager.GetString("String43", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a La figura del Polo Tecnológico promueve una colaboración implícita y explícita entre los agentes económicos locales y/o regionales en primer término y, nacionales y extranjeros en segundo término..
-        /// </summary>
-        internal static string String44 {
-            get {
-                return ResourceManager.GetString("String44", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a En el año 2011, se convocó al Polo Tecnológico Chaco, la entidad representante de la industria de Tecnologías de la Información y Comunicaciones (TIC), a la Universidad Tecnológica Nacional - Facultad Regional Resistencia (UTN - FRRe) y, a la Empresa Sistemas Globales S.A. (Globant) para  avanzar en la creación del Laboratorio Informático del Chaco. Al año siguiente, se dió inicio al 1er ciclo del “Curso de Desarrollo Avanzado de aplicaciones Informáticas”..
-        /// </summary>
-        internal static string String5 {
-            get {
-                return ResourceManager.GetString("String5", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Facebook: informatorio.
-        /// </summary>
-        internal static string String6 {
-            get {
-                return ResourceManager.GetString("String6", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Twitter: N/A.
-        /// </summary>
-        internal static string String7 {
-            get {
-                return ResourceManager.GetString("String7", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a El Curso de Desarrollo Avanzado de Aplicaciones Informáticas contempla los siguientes Módulos:.
-        /// </summary>
-        internal static string String8 {
-            get {
-                return ResourceManager.GetString("String8", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Fundamentos de la programación.
-        /// </summary>
-        internal static string String9 {
-            get {
-                return ResourceManager.GetString("String9", resourceCulture);
             }
         }
     }
