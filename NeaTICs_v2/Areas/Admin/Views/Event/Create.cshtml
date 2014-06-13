@@ -27,7 +27,7 @@
             @Html.LabelFor(model => model.Content, new { @class = "col-sm-2 control-label" })
 
             <div class="col-sm-8">
-                @Html.TextBoxFor(model => model.Content, new { @class = "form-control" })
+                @Html.TextAreaFor(model => model.Content, 15, 0, new { @class = "form-control" })
                 @Html.ValidationMessageFor(model => model.Content)
             </div>
         </div>

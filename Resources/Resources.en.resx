@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutSection_AboutContent" xml:space="preserve">
+    <value>Este portal concentra toda la información relativa a la industria de Tecnologías de la Información y Comunicaciones (TIC) generada en la región Noreste Argentino. </value>
+  </data>
+  <data name="AboutSection_LeftColumn" xml:space="preserve">
+    <value>Portal NEA Tics</value>
+  </data>
+  <data name="AboutSection_SponsorsContent" xml:space="preserve">
+    <value>Las instituciones que llevaron adelante este proyecto:</value>
+  </data>
+  <data name="AboutSection_SponsorsLabel" xml:space="preserve">
+    <value>Sponsors</value>
+  </data>
+  <data name="AboutSection_Sponsor_SSICh" xml:space="preserve">
+    <value>-  Programa SSICh - Ministerio de Industria, Empleo y Trabajo</value>
+  </data>
+  <data name="AboutSection_WhatToFindContent" xml:space="preserve">
+    <value>En el portal encontrarán contenidos exclusivos para distintos perfiles del mundo TIC, tales como: empresas, emprendedores, estudiantes e invitados. </value>
+  </data>
+  <data name="AboutSection_WhatToFindLabel" xml:space="preserve">
+    <value>Qué encontrar</value>
+  </data>
+  <data name="AbuotSection_AboutLabel" xml:space="preserve">
+    <value>Acerca del Portal</value>
+  </data>
+  <data name="ContactUsSection_EmailInput" xml:space="preserve">
+    <value>Ingrese su e-mail</value>
+  </data>
+  <data name="ContactUsSection_EmailLabel" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="ContactUsSection_MessageLabel" xml:space="preserve">
+    <value>Mensaje</value>
+  </data>
+  <data name="ContactUsSection_NameInput" xml:space="preserve">
+    <value>Ingrese su nombre</value>
+  </data>
+  <data name="ContactUsSection_NameLabel" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="ContactUsSection_SubjectInput" xml:space="preserve">
+    <value>Ingrese el asunto del mensaje</value>
+  </data>
+  <data name="ContactUsSection_SubjectLabel" xml:space="preserve">
+    <value>Asunto</value>
+  </data>
+  <data name="ContactUsSection_SubmiButton" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="ContactUsSecttion_LeftColumn" xml:space="preserve">
+    <value>Contacto</value>
+  </data>
+  <data name="Footer_Development" xml:space="preserve">
+    <value>Diseño: "Los #22" - Desarrollo: "Los Implementadores"|"ManiaTICs" ©Informatorio 2013</value>
+  </data>
+  <data name="Home_ProfileList_Developer" xml:space="preserve">
+    <value>Desarrollador</value>
+  </data>
+  <data name="Home_ProfileList_Enterprise" xml:space="preserve">
+    <value>Empresa</value>
+  </data>
+  <data name="Home_ProfileList_Student" xml:space="preserve">
+    <value>Estudiante</value>
+  </data>
+  <data name="Home_ProfilesList" xml:space="preserve">
+    <value>Elegí tu perfil</value>
+  </data>
+  <data name="InformatorioSection_AboutContent" xml:space="preserve">
+    <value>El Informatorio es el Laboratorio de capacitaciones Informáticas de la Provincia del Chaco, un proyecto producto de la integración entre Universidad, Estado y Empresas dedicadas al desarrollo de Software y Servicios Informáticos.</value>
+  </data>
+  <data name="InformatorioSection_AboutLabel" xml:space="preserve">
+    <value>¿Qué es?</value>
+  </data>
+  <data name="InformatorioSection_ContactUsContent" xml:space="preserve">
+    <value>Mail: informatoriochaco@gmail.com</value>
+  </data>
+  <data name="InformatorioSection_ContactUsLabel" xml:space="preserve">
+    <value>Contacto</value>
+  </data>
+  <data name="InformatorioSection_ExperiencesButton" xml:space="preserve">
+    <value>EXPERIENCIAS</value>
+  </data>
+  <data name="InformatorioSection_GalleryButton" xml:space="preserve">
+    <value>GALERIA</value>
+  </data>
+  <data name="InformatorioSection_LeftColumn" xml:space="preserve">
+    <value>Informatorio Chaco</value>
+  </data>
+  <data name="InformatorioSection_ObjectivesContent" xml:space="preserve">
+    <value>El Informatorio tiene como objetivo primordial formar a los jóvenes en las competencias necesarias para ingresar a la industria creciente de Software y Servicios Informáticos de la Provincia del Chaco.</value>
+  </data>
+  <data name="InformatorioSection_ObjectivesLabel" xml:space="preserve">
+    <value>Objetivos</value>
+  </data>
+  <data name="InformatorioSection_ParticipateContent" xml:space="preserve">
+    <value>Contenidos/Programa</value>
+  </data>
+  <data name="InformatorioSection_ParticipateLabel" xml:space="preserve">
+    <value>Participar</value>
+  </data>
+  <data name="InformatorioSection_ProyectsButton" xml:space="preserve">
+    <value>PROYECTOS</value>
+  </data>
+  <data name="InformatorioSection_RightColumn" xml:space="preserve">
+    <value>Frondizi 174, Piso 4º, Edificio Bolsa de Comercio del Chaco. </value>
+  </data>
+  <data name="InformatorioSection_TeachersContent" xml:space="preserve">
+    <value>Madia Burgos (2013 - 2014)</value>
+  </data>
+  <data name="InformatorioSection_TeachersLabel" xml:space="preserve">
+    <value>Instructores</value>
+  </data>
+  <data name="MenuItem_About" xml:space="preserve">
+    <value>Acerca</value>
+  </data>
+  <data name="MenuItem_ContactUs" xml:space="preserve">
+    <value>Contacto</value>
+  </data>
+  <data name="MenuItem_Home" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="MenuItem_Informatorio" xml:space="preserve">
+    <value>Informatorio</value>
+  </data>
+  <data name="MenuItem_PoloITChaco" xml:space="preserve">
+    <value>Polo IT Chaco</value>
+  </data>
+  <data name="MenuSearchBar" xml:space="preserve">
+    <value>¿Qué buscás?</value>
+  </data>
+  <data name="PoloITChacoSection_AboutContent" xml:space="preserve">
+    <value>¿Qué es un Polo Tecnológico?</value>
+  </data>
+  <data name="PoloITChacoSection_AboutLabel" xml:space="preserve">
+    <value>¿Qué es?</value>
+  </data>
+  <data name="PoloITChacoSection_ContactUsContent" xml:space="preserve">
+    <value>Mail: contacto@polochaco.com.ar</value>
+  </data>
+  <data name="PoloITChacoSection_ContactUsLabel" xml:space="preserve">
+    <value>Contacto</value>
+  </data>
+  <data name="PoloITChacoSection_LeftColumn" xml:space="preserve">
+    <value>Polo IT Chaco</value>
+  </data>
+  <data name="PoloITChacoSection_ParticipateContent" xml:space="preserve">
+    <value>Para participar: contacto@polochaco.com.ar</value>
+  </data>
+  <data name="PoloITChacoSection_ParticipateLabel" xml:space="preserve">
+    <value>Participar</value>
+  </data>
+  <data name="PoloITChacoSection_VisionContent" xml:space="preserve">
+    <value>Ser un centro de referencia internacional en el desarrollo científico y la innovación tecnológica, siendo ejemplo concreto del Sistema Regional de Innovación, posicionando a la Región del Noreste Argentino en un lugar privilegiado.</value>
+  </data>
+  <data name="PoloITChacoSection_VisionLabel" xml:space="preserve">
+    <value>Visión</value>
+  </data>
+  <data name="SliderFooter_EventsLabel" xml:space="preserve">
+    <value>Eventos</value>
+  </data>
+  <data name="SliderFooter_NewsLabel" xml:space="preserve">
+    <value>Noticias</value>
+  </data>
+  <data name="AboutSection_AboutContent2" xml:space="preserve">
+    <value>Aquí se encuentran los datos para contactar a profesionales de la industria (diseñadores, desarrolladores/programadores freelance, etc.), empresas u organizaciones dedicadas a proveer productos y servicios de SSI, entidades educativas y organizaciones dedicadas al fomento de la industria informática.</value>
+  </data>
+  <data name="AboutSection_WhatToFindContent2" xml:space="preserve">
+    <value>También se encontrará información relevante como publicaciones descriptivas y explicativas del sector, datos de contactos, noticias referidas, entre otros.</value>
+  </data>
+  <data name="InformatorioSection_ParticipateContent4" xml:space="preserve">
+    <value>Gestión de la Información</value>
+  </data>
+  <data name="InformatorioSection_ParticipateContent5" xml:space="preserve">
+    <value>Ingeniería de Software</value>
+  </data>
+  <data name="InformatorioSection_ParticipateContent6" xml:space="preserve">
+    <value>Programación avanzada en Tecnologías:</value>
+  </data>
+  <data name="InformatorioSection_ParticipateContent7" xml:space="preserve">
+    <value>Tecnologías .NET</value>
+  </data>
+  <data name="InformatorioSection_ParticipateContent8" xml:space="preserve">
+    <value>Tecnologías Java</value>
+  </data>
+  <data name="InformatorioSection_ParticipateContent9" xml:space="preserve">
+    <value>Tecnologías PHP</value>
+  </data>
+  <data name="InformatorioSection_ParticipateContent10" xml:space="preserve">
+    <value>Inglés</value>
+  </data>
+  <data name="InformatorioSection_RightColumn2" xml:space="preserve">
+    <value>Resistencia, Chaco - Argentina</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent2" xml:space="preserve">
+    <value>LinkedIn:</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent3" xml:space="preserve">
+    <value>Twitter: --</value>
+  </data>
+  <data name="ContactUsSecttion_LeftColumn2" xml:space="preserve">
+    <value>Completa el formulario para dejarnos tú mensaje</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent4" xml:space="preserve">
+    <value>Luciano Escudero (2012 - 2013 - 2014)</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent5" xml:space="preserve">
+    <value>Perfil: acceder</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent6" xml:space="preserve">
+    <value>Twitter: --</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent7" xml:space="preserve">
+    <value>Gustavo Gimenez (2013 - 2014)</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent8" xml:space="preserve">
+    <value>Perfil: acceder</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent9" xml:space="preserve">
+    <value>Twitter: --</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent10" xml:space="preserve">
+    <value>Noelia Pinto (2012 - 2013 - 2014)</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent11" xml:space="preserve">
+    <value>Perfil: acceder</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent12" xml:space="preserve">
+    <value>Twitter: acceder</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent14" xml:space="preserve">
+    <value>LinkedIn:</value>
+  </data>
+  <data name="InformatorioSection_AboutContent2" xml:space="preserve">
+    <value>Un poco de historia:</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent15" xml:space="preserve">
+    <value>Profile: --</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent16" xml:space="preserve">
+    <value>Twitter: --</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent17" xml:space="preserve">
+    <value>Gilda R. Romero (2013 - 2014)</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent18" xml:space="preserve">
+    <value>Perfil: acceder</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent19" xml:space="preserve">
+    <value>Twitter: acceder</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent20" xml:space="preserve">
+    <value>Darío Vallejos (2012 - 2013 - 2014)</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent21" xml:space="preserve">
+    <value>Perfil: acceder</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent22" xml:space="preserve">
+    <value>Twitter: --</value>
+  </data>
+  <data name="PoloITChacoSection_AboutContent2" xml:space="preserve">
+    <value>Un Polo Tecnológico es un conjunto de industrias tecnológicas, generalmente acompañadas de instituciones educativas y de investigación, situadas en una ubicación física común.</value>
+  </data>
+  <data name="PoloITChacoSection_AboutContent3" xml:space="preserve">
+    <value>El principal objetivo de un Polo Tecnológico es acercar las universidades y la industria para fomentar el desarrollo de soluciones locales con tecnología de punta, aportando conocimientos y generando nuevas oportunidades de trabajo para el capital humano regional.</value>
+  </data>
+  <data name="InformatorioSection_AboutContent3" xml:space="preserve">
+    <value>La comisión de Recursos Humanos, surgida a partir del 1er Foro de Competitividad de  la Industria de Software y Servicios Informáticos (SSI) del Chaco, llevado a cabo en los años 2009 y 2010, determinó la creación de un espacio para el crecimiento y la especialización del capital humano en la Industria SSI.</value>
+  </data>
+  <data name="PoloITChacoSection_AboutContent4" xml:space="preserve">
+    <value>El modelo conceptual parte de la ideología del tradicional vínculo Universidad-Empresa-Gobierno, denominado académicamente Triángulo de Sábato y, actualmente, se ha extendido a la filosofía Sistema Regional de Innovación.</value>
+  </data>
+  <data name="PoloITChacoSection_ContactUsContent2" xml:space="preserve">
+    <value>Facebook: PoloITChaco</value>
+  </data>
+  <data name="PoloITChacoSection_ContactUsContent3" xml:space="preserve">
+    <value>Twitter: PoloITChaco</value>
+  </data>
+  <data name="PoloITChacoSection_VisionContent2" xml:space="preserve">
+    <value>El Polo Tecnológico Chaco ha sido formado y ubicado en un área estratégicamente localizada y desarrollada, en pos de ofrecer un entorno de prestigio para atraer a empresas, en general, de alta tecnología, tecnologías emergentes o de punta.</value>
+  </data>
+  <data name="PoloITChacoSection_VisionContent3" xml:space="preserve">
+    <value>La figura del Polo Tecnológico promueve una colaboración implícita y explícita entre los agentes económicos locales y/o regionales en primer término y, nacionales y extranjeros en segundo término.</value>
+  </data>
+  <data name="InformatorioSection_AboutContent4" xml:space="preserve">
+    <value>En el año 2011, se convocó al Polo Tecnológico Chaco, la entidad representante de la industria de Tecnologías de la Información y Comunicaciones (TIC), a la Universidad Tecnológica Nacional - Facultad Regional Resistencia (UTN - FRRe) y, a la Empresa Sistemas Globales S.A. (Globant) para  avanzar en la creación del Laboratorio Informático del Chaco. Al año siguiente, se dió inicio al 1er ciclo del “Curso de Desarrollo Avanzado de aplicaciones Informáticas”.</value>
+  </data>
+  <data name="InformatorioSection_ContactUsContent2" xml:space="preserve">
+    <value>Facebook: informatorio</value>
+  </data>
+  <data name="InformatorioSection_ContactUsContent3" xml:space="preserve">
+    <value>Twitter: N/A</value>
+  </data>
+  <data name="InformatorioSection_ParticipateContent2" xml:space="preserve">
+    <value>El Curso de Desarrollo Avanzado de Aplicaciones Informáticas contempla los siguientes Módulos:</value>
+  </data>
+  <data name="InformatorioSection_ParticipateContent3" xml:space="preserve">
+    <value>Fundamentos de la programación</value>
+  </data>
+  <data name="InformatorioSection_TeachersContent13" xml:space="preserve">
+    <value>Diego Ramirez (2014)</value>
+  </data>
+</root>
