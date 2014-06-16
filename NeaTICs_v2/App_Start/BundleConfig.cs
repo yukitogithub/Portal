@@ -31,6 +31,9 @@ namespace NeaTICs_v2.App_Start
             bundles.Add(new ScriptBundle("~/bundles/knockout").Include(
                         "~/Scripts/knockout-3.0.0.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/jquery-datetimepicker").Include(
+                        "~/Scripts/jquery.datetimepicker.js"));
+
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/Site.css"));
 
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
@@ -49,6 +52,9 @@ namespace NeaTICs_v2.App_Start
 
             bundles.Add(new StyleBundle("~/Content/bootstrap").Include(
                         "~/Content/bootstrap.min.css"));
+
+            bundles.Add(new StyleBundle("~/Content/jquery-datetimepicker").Include(
+                        "~/Content/jquery.datetimepicker.css"));
 
             BundleTable.EnableOptimizations = true;
         }

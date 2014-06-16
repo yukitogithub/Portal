@@ -4,6 +4,10 @@
     ViewBag.Title = "Crear";
 }
 
+@section Head{
+    @Styles.Render("~/Content/jquery-datetimepicker")
+}
+
 <h2>Crear</h2>
 
 @using (Html.BeginForm("Create", "Event", FormMethod.Post, new { @class = "form-horizontal", enctype = "multipart/form-data", role = "form" }))
@@ -62,8 +66,8 @@
         <div class="form-group">
             @Html.LabelFor(model => model.StartAt, new { @class = "col-sm-2 control-label" })
 
-            <div class="col-sm-8">
-                @Html.TextBoxFor(model => model.StartAt, new { @class = "form-control" })
+            <div class="col-sm-2">
+                @Html.TextBoxFor(model => model.StartAt, new { @class = "form-control", type = "time" })
                 @Html.ValidationMessageFor(model => model.StartAt)
             </div>
         </div>
@@ -71,8 +75,8 @@
         <div class="form-group">
             @Html.LabelFor(model => model.EndAt, new { @class = "col-sm-2 control-label" })
 
-            <div class="col-sm-8">
-                @Html.TextBoxFor(model => model.EndAt, new { @class = "form-control" })
+            <div class="col-sm-2">
+                @Html.TextBoxFor(model => model.EndAt, new { @class = "form-control", type = "time" })
                 @Html.ValidationMessageFor(model => model.EndAt)
             </div>
         </div>
@@ -108,4 +112,15 @@
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/jquery-datetimepicker")
+    <script type="text/javascript">
+        $('#StartAt').datetimepicker({
+            datepicker: false,
+            format: 'H:i'
+        });
+        $('#EndAt').datetimepicker({
+            datepicker: false,
+            format: 'H:i'
+        });
+    </script>
 }
