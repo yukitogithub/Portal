@@ -12,6 +12,7 @@ using NeaTICs_v2.Models;
 using NeaTICs_v2.DAL;
 using System.Drawing;
 using System.Configuration;
+using NeaTICs_v2.Helpers;
 
 namespace NeaTICs_v2.Areas.Admin.Controllers
 {
@@ -97,53 +98,14 @@ namespace NeaTICs_v2.Areas.Admin.Controllers
             }
             else
             {
-                //For saving an image into a folder
-                //To know the file extension
-                string Extension = System.IO.Path.GetExtension(@events.ImageToUpload.FileName);
-
-                if (Extension != ".jpg" && Extension != ".jpeg" && Extension != ".png" && Extension != ".gif")
-                {
-                    ModelState.AddModelError("", "The image extension is wrong. Please, select an apropiate image");
-                    return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
-                }
-
-                //To know the name of the file
-                string ImageName = System.IO.Path.GetFileName(@events.ImageToUpload.FileName);
-
-                //To know the physical path
-                string physicalPath = HttpContext.Current.Server.MapPath("~/Images/Eventos/" + ImageName);
-
-                //To know the size of the file
-                int FileSize = @events.ImageToUpload.ContentLength;
-
-                //If the size is too big you get an error
-                if (FileSize >= /*1048576 1mb*/ Convert.ToInt32(ConfigurationManager.AppSettings["ImageSize"]) /*5mb*/)
-                {
-                    //TODO: Poner el tamaño máximo del archivo permitido en el WebConfig
-                    //Log the error (uncomment dex variable name after DataException and add a line here to write a log.)
-                    ModelState.AddModelError("", "Maximum File Size 5 MB");
-                    return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
-                }
-
-                //If the image is too small you get an error
-                using (Image image = Image.FromStream(@events.ImageToUpload.InputStream, true, true))
-                {
-                    //TODO: Ver resolución de tamaño adecuada!
-                    //TODO: Poner los valores en el webconfig!
-                    if (image.Width < Convert.ToInt32(ConfigurationManager.AppSettings["ImageWidth"]) || image.Height < Convert.ToInt32(ConfigurationManager.AppSettings["ImageHeigth"]))
-                    {
-                        ModelState.AddModelError("", "Resolution is Too Low!");
-                        return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
-                    }
-                }
                 try
                 {
                     if (ModelState.IsValid)
                     {
-                        //Saving the image into the folder
-                        @events.ImageToUpload.SaveAs(physicalPath);
+                        //The ImageHelper try to save the image if the image meet all the requirements and if it do then return the name
+                        string name = ImageHelper.TryImage(events.ImageToUpload, "Events");
                         //Asing the url of the file
-                        @events.ImageUrl = ConfigurationManager.AppSettings["ImageUrl"] + "Eventos/" + ImageName;
+                        @events.ImageUrl = ConfigurationManager.AppSettings["ImageUrl"] + "Eventos/" + name;
                         //Inserto nuevo evento en la BD
                         unitOfWork.EventsRepository.Insert(events);
                         //Guardo
@@ -154,13 +116,14 @@ namespace NeaTICs_v2.Areas.Admin.Controllers
                     }
                     else
                     {
+                        ModelState.AddModelError("", "You must complete all the required fields");
                         return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
                     }
                 }
-                catch (DataException /* dex */)
+                catch (Exception e)
                 {
-                    //Log the error (uncomment dex variable name after DataException and add a line here to write a log.)
-                    ModelState.AddModelError("", "Unable to save changes. Try again, and if the problem persists, see your system administrator.");
+                    //Log the error if is needed
+                    ModelState.AddModelError("", e.Message);
                     return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
                 }
             }

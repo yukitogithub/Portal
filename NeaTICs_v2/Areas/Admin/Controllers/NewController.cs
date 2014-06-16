@@ -9,6 +9,7 @@ using NeaTICs_v2.Models;
 using NeaTICs_v2.DAL;
 using System.Drawing;
 using System.Configuration;
+using NeaTICs_v2.Helpers;
 
 namespace NeaTICs_v2.Areas.Admin.Controllers
 {
@@ -57,63 +58,25 @@ namespace NeaTICs_v2.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(New @new)
         {
-            //TODO: Revisar tipo de imagen a subir
             //var contentType = @new.ImageToUpload.ContentType;
             //Acá convierto el archivo que suben en un arreglo de bytes para ser guardado en la BD
             //var ImageData = new byte[@new.ImageToUpload.ContentLength];
             //@new.ImageToUpload.InputStream.Read(ImageData, 0, @new.ImageToUpload.ContentLength);
             //@new.Image = ImageData;
-
             if (@new.ImageToUpload == null)
             {
-                ModelState.AddModelError("", "The image for the new is required. Please, select an apropiate image");
+                ModelState.AddModelError("", "The image for the news is required. Please, select an apropiate image");
             }
             else
-            {
-                //TODO: Acá se debería preguntar si el archivo tiene una extensión de imagen válida
-                //To know the file extension
-                string Extension = System.IO.Path.GetExtension(@new.ImageToUpload.FileName);
-
-                if (Extension != ".jpg" && Extension != ".jpeg" && Extension != ".png" && Extension != ".gif")
-                {
-                    ModelState.AddModelError("", "The image extension is wrong. Please, select an apropiate image");
-                    //return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
-                }
-
-                //To know the name of the file
-                string ImageName = System.IO.Path.GetFileName(@new.ImageToUpload.FileName);
-                //To know the physical path
-
-                string physicalPath = Server.MapPath("~/Images/Noticias/" + ImageName);
-                //To know the size of the file
-                int FileSize = @new.ImageToUpload.ContentLength;
-
-                //Si la imagen supera un tamaño máximo permitido se devuelve error
-                if (FileSize >= /*1048576 1mb*/ Convert.ToInt32(ConfigurationManager.AppSettings["ImageSize"]) /*5mb*/)
-                {
-                    //Log the error (uncomment dex variable name after DataException and add a line here to write a log.)
-                    ModelState.AddModelError("", "Maximum File Size 5 MB");
-                    //return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
-                }
-
-                //Si la imagen tiene una resolución muy baja se devuelve un error
-                using (Image image = Image.FromStream(@new.ImageToUpload.InputStream, true, true))
-                {
-                    //TODO: Ver resolución de tamaño adecuada!
-                    if (image.Width < Convert.ToInt32(ConfigurationManager.AppSettings["ImageWidth"]) && image.Height < Convert.ToInt32(ConfigurationManager.AppSettings["ImageHeigth"]))
-                    {
-                        ModelState.AddModelError("", "Resolution is Too Low!");
-                        //return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
-                    }
-                }
-                //Guardo en la noticia la url de la imagen
-                @new.ImageUrl = ConfigurationManager.AppSettings["ImageUrl"] + "Noticias/" + ImageName;
+            {   
                 try
                 {
                     if (ModelState.IsValid)
                     {
-                        //Guardo la imagen en la folder
-                        @new.ImageToUpload.SaveAs(physicalPath);
+                        //The ImageHelper try to save the image if the image meet all the requirements and if it do then return the name
+                        string name = ImageHelper.TryImage(@new.ImageToUpload, "News");
+                        //Guardo en la noticia la url de la imagen
+                        @new.ImageUrl = ConfigurationManager.AppSettings["ImageUrl"] + "Noticias/" + name;
                         //Inserto la nueva noticia en la BD
                         unitOfWork.NewsRepository.Insert(@new);
                         //Guardo
@@ -122,13 +85,13 @@ namespace NeaTICs_v2.Areas.Admin.Controllers
                     }
                     else
                     {
-                        ModelState.AddModelError("", "Unable to save changes. Try again, and if the problem persists, see your system administrator.");
+                        throw new Exception("You must complete all the required fields");
                     }
                 }
-                catch (DataException /* dex */)
+                catch (Exception e)
                 {
-                    //Log the error (uncomment dex variable name after DataException and add a line here to write a log.)
-                    ModelState.AddModelError("", "Unable to save changes. Try again, and if the problem persists, see your system administrator.");
+                    //Log the error if is needed
+                    ModelState.AddModelError("", e.Message);
                 }
             }
             return View(@new);
