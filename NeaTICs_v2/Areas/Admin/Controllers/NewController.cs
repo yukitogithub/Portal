@@ -77,6 +77,8 @@ namespace NeaTICs_v2.Areas.Admin.Controllers
                         string name = ImageHelper.TryImage(@new.ImageToUpload, "News");
                         //Guardo en la noticia la url de la imagen
                         @new.ImageUrl = ConfigurationManager.AppSettings["ImageUrl"] + "Noticias/" + name;
+                        //Seteo la fecha de actualización con la fecha actual del sistema
+                        @new.UpdatedAt = DateTime.Now;
                         //Inserto la nueva noticia en la BD
                         unitOfWork.NewsRepository.Insert(@new);
                         //Guardo
@@ -127,7 +129,7 @@ namespace NeaTICs_v2.Areas.Admin.Controllers
             TempNew.Title = @new.Title;
             TempNew.Content = @new.Content;
             TempNew.CreatedAt = @new.CreatedAt;
-            TempNew.UpdatedAt = @new.UpdatedAt;
+            TempNew.UpdatedAt = DateTime.Now;
             TempNew.Url = @new.Url;
             try
             {

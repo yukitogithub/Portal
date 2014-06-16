@@ -80,7 +80,9 @@ namespace NeaTICs_v2.Areas.Admin.Controllers
                         //The ImageHelper try to save the image if the image meet all the requirements and if it do then return the name
                         string name = ImageHelper.TryImage(@event.ImageToUpload, "Events");
                         //Guardo en la noticia la url de la imagen
-                        @event.ImageUrl = ConfigurationManager.AppSettings["ImageUrl"] + "Eventos/" + name; ;
+                        @event.ImageUrl = ConfigurationManager.AppSettings["ImageUrl"] + "Eventos/" + name;
+                        //Seteo la fecha de actualización con la fecha actual del sistema
+                        @event.UpdateAt = DateTime.Now;
                         //Inserto nuevo evento en la BD
                         unitOfWork.EventsRepository.Insert(@event);
                         //Guardo
@@ -132,7 +134,7 @@ namespace NeaTICs_v2.Areas.Admin.Controllers
             TempEvent.Content = @event.Content;
             TempEvent.Place = @event.Place;
             TempEvent.CreateAt = @event.CreateAt;
-            TempEvent.UpdateAt = @event.UpdateAt;
+            TempEvent.UpdateAt = DateTime.Now;
             TempEvent.StartAt = @event.StartAt;
             TempEvent.EndAt = @event.EndAt;
             TempEvent.Url = @event.Url;
