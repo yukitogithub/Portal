@@ -61,7 +61,7 @@ namespace NeaTICs_v2.Areas.Admin.Controllers
             TempNew.Title = @new.Title;
             TempNew.Content = @new.Content;
             TempNew.CreatedAt = @new.CreatedAt;
-            TempNew.UpdatedAt = @new.UpdatedAt;
+            TempNew.UpdatedAt = DateTime.Now;
             TempNew.Url = @new.Url;
             //Actualizo la noticia
             unitOfWork.NewsRepository.Update(TempNew);
@@ -101,7 +101,9 @@ namespace NeaTICs_v2.Areas.Admin.Controllers
                         //The ImageHelper try to save the image if the image meet all the requirements and if it do then return the name
                         string name = ImageHelper.TryImage(@new.ImageToUpload, "News");
                         //Saving the url into the new
-                        @new.ImageUrl = ConfigurationManager.AppSettings["ImageUrl"] + "Noticias/" + name; ;
+                        @new.ImageUrl = ConfigurationManager.AppSettings["ImageUrl"] + "Noticias/" + name;
+                        //Seteo la fecha de actualización con la fecha actual del sistema
+                        @new.UpdatedAt = DateTime.Now;
                         //Insert the new into the BD
                         unitOfWork.NewsRepository.Insert(@new);
                         //Saving
