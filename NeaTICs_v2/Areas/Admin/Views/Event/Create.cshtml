@@ -105,6 +105,11 @@
     @Scripts.Render("~/bundles/jqueryval")
     @Scripts.Render("~/bundles/jquery-datetimepicker")
     <script type="text/javascript">
+        $('#CreateAt').datetimepicker({
+            lang: 'es',
+            timepicker: false,
+            format: 'd-m-Y'
+        });
         $('#StartAt').datetimepicker({
             datepicker: false,
             format: 'H:i'
