@@ -4,6 +4,10 @@
     ViewBag.Title = "Editar";
 }
 
+@section Head{
+    @Styles.Render("~/Content/jquery-datetimepicker")
+}
+
 <h2>Editar</h2>
 
 @using (Html.BeginForm("Edit", "New", FormMethod.Post, new { @class = "form-horizontal", enctype = "multipart/form-data", role = "form" }))
@@ -74,4 +78,12 @@
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/jquery-datetimepicker")
+    <script type="text/javascript">
+        $('#CreatedAt').datetimepicker({
+            lang: 'es',
+            timepicker: false,
+            format: 'd/m/Y'
+        });
+    </script>
 }
