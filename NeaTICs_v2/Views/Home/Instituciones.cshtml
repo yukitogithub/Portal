@@ -1,0 +1,80 @@
+@{
+  ViewBag.Title = "Instituciones";
+}
+
+@section DPerfil{
+  @Html.Partial("_DPerfil")
+}
+
+<div class="contentIzq">
+    <h1>Polo IT Chaco</h1>
+    <div class="imgPerfilInstituciones">
+        <img src="~/Images/LogoPoloIT.png">
+    </div>
+    <div class="redesSocInstituciones">
+        <div class="face">
+            <p><a href="http://www.facebook.com/poloitchaco" target="_blank">Facebook</a></p>
+        </div>
+        <div class="twit">
+            <p><a target="_blank" href="https://twitter.com/poloITChaco">Twitter</a></p>
+        </div>
+        <div class="googleSoc">
+            <p><a target="_blank" href="https://plus.google.com/u/0/118235183694719269214/posts">Google+</a></p>
+        </div>
+        <div class="email">
+            <p><a href="#">contacto@polochaco.com.ar</a></p>
+        </div>
+    </div>
+</div>
+<div class="contentCent">
+    <div class="navInstituciones">
+        <ul>
+            <li><a id="acercaInst" class="navActivoInst" href="#">Acerca de</a></li>
+            <li><a id="trayectInst" href="#">Trayectoria</a></li>
+            <li><a id="contInst" href="#">Contacto</a></li>
+            <li><a id="evenInst" href="#">Eventos</a></li>
+            <li><a id="notInst" href="#">Noticias</a></li>
+        </ul>
+    </div>
+    <div id="textNavInst">
+        <div id="acercaDeInst" class="textoDifNavInst">
+            <h3>Acerca del Polo Tecnológico</h3>
+            <p>Un Polo Tecnológico es un ejemplo de la creación de sinergias en un conjunto de industrias e instituciones tecnológicas, que se encuentra situada en una ubicación física común y, donde se supera el tradicional vínculo Universidad-Empresa-Gobierno, denominado académicamente Triángulo de Sábato.</p>
+            <p>El Triángulo de Sábato (Jorge Sábato, 1995) es el modelo más elemental y universalmente aceptado de política científico – tecnológica, representado gráficamente de la siguiente manera:</p>
+            <p>El modelo postula que para que exista en realidad un sistema científico - tecnológico, es necesario:</p>
+            <ul>
+                <li>Al estado/gobierno, como diseñador y ejecutor de la política,</li>
+                <li>La fraestructura científico-tecnológica (universidad e institutos de investigación /academia)como sector de oferta de tecnología y,</li>
+                <li>El sector productivo (empresas), como demandante de tecnología estén fuerte y permanentemente relacionados.</li>
+            </ul>
+            <p>El principal objetivo de un Polo Tecnológico es acercar las universidades y la industria para fomentar el desarrollo de soluciones locales con tecnología de punta, abriendo la posibilidad a la generación de nuevas fuentes de trabajo para el capital humano egresado de las entidades educativas.</p>
+        </div>
+        <div id="trayectoriaInst" class="pagContrInst">
+            <p>Disponible próximamente. Sección en construcción.</p>
+        </div>
+        <div id="contactoInst" class="textoDifNavInst">
+            <p>
+                <ul id="contactos-polo">
+                    <li><b>Mail:</b> contacto@polochaco.com.ar </li>
+                    <li><b>Facebook:</b> PoloITChaco </li>
+                    <li><b>Twitter:</b> PoloITChaco </li>
+                </ul>
+            </p>
+        </div>
+        <div id="eventosInst" class="pagContrInst">
+            <p>Disponible próximamente. Sección en construcción.</p>
+        </div>
+        <div id="noticiasInst" class="pagContrInst">
+            <p>Disponible próximamente. Sección en construcción.</p>
+        </div>
+    </div>
+</div>
+<div class="contentDer">
+    <div id="map">
+
+    </div>
+</div>
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<link rel="stylesheet" type="text/css" href="~/Content/instituciones.css">
+<script type="text/javascript" src="~/Scripts/instituciones.js"></script>

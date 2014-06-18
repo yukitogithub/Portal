@@ -1,0 +1,230 @@
+/*Estilos Contenido Izquierdo*/
+.contentIzq{
+	background: #EEE;
+	/*border: 2px solid #ccc;*/
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px #CCC;
+	margin: 40px 0;
+	text-align: center;
+	width: 30%;
+}
+
+.imgPerfilInstituciones{
+	background-color: #FFF;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	height: auto;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.imgPerfilInstituciones img{
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	height: auto;
+	width: 100%
+}
+
+.redesSocInstituciones{
+	margin: 0 auto;
+	padding: 25px 25px 25px 10%;
+	text-align: left;
+}
+
+.redesSocInstituciones a{
+	text-decoration: none;
+	white-space: pre-wrap;
+	display: block;
+}
+
+.redesSocInstituciones .face{
+	background: url(../Images/contact-icons-1.png) 0px -120px no-repeat;
+	height: 30px;
+	margin-top: 5px;
+	width: auto;
+}
+
+.redesSocInstituciones .face:hover{
+	background: url(../Images/contact-icons-1.png) 0px -30px no-repeat;
+	color: #2a6496;
+	font-weight: bold;
+}
+
+.redesSocInstituciones .face p{
+	padding-left: 35px;
+	padding-top: 5px;
+	width: 100%;
+}
+
+.redesSocInstituciones .twit{
+	background: url(../Images/contact-icons-1.png) 0px -150px no-repeat;
+	height: 30px;
+	margin-top: 5px;
+	width: auto;
+}
+
+.redesSocInstituciones .twit:hover{
+	background: url(../Images/contact-icons-1.png) 0px -60px no-repeat;
+	color: #2a6496;
+	font-weight: bold;
+}
+
+.redesSocInstituciones .twit p{
+	padding-left: 35px;
+	padding-top: 5px;
+	width: 100%;
+}
+
+.redesSocInstituciones .twit p a{
+	width: 100%;
+}
+
+.redesSocInstituciones .googleSoc{
+	background: url(../Images/contact-icons-1.png) 0px -180px no-repeat;
+	height: 30px;
+	margin-top: 5px;
+	width: auto;
+}
+
+.redesSocInstituciones .googleSoc:hover{
+	background: url(../Images/contact-icons-1.png) 0px -90px no-repeat;
+	color: #2a6496;
+	font-weight: bold;
+}
+
+.redesSocInstituciones .googleSoc p{
+	padding-left: 35px;
+	padding-top: 5px;
+	width: 100%;
+}
+
+.redesSocInstituciones .googleSoc p a{
+	width: 100%;
+}
+
+
+.redesSocInstituciones .email{
+	background: url(../Images/contact-icons-1.png) 0px -210px no-repeat;
+	height: 30px;
+	display: block;
+	margin-top: 5px;
+	width: auto;
+}
+
+.redesSocInstituciones .email:hover{
+	background: url(../Images/contact-icons-1.png) 0px 0px no-repeat;
+	color: #2a6496;
+	font-weight: bold;
+}
+
+.redesSocInstituciones .email p{
+	display: block;
+	padding-left: 35px;
+	padding-top: 5px;
+	white-space: pre-wrap;
+	width: 100%;
+}
+
+.redesSocInstituciones .email p a{
+	white-space: pre-wrap;
+}
+
+
+/*Estilos Contenido Central*/
+#contactoInst{
+	display: none;
+}
+
+#eventosInst{
+	display: none;
+}
+
+#noticiasInst{
+	display: none;
+}
+
+#trayectoriaInst{
+	display: none;
+}
+
+.contentCent{
+	margin: 40px 0;
+	padding: 15px;
+	width: 44%;
+}
+
+.navInstituciones{
+	height: 20px;
+}
+
+.navInstituciones ul {
+	list-style: none;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+.navInstituciones ul li{
+	float: left;
+	height: 20px;
+}
+
+.navInstituciones ul li a{
+	border: 1px solid #333366;
+	color: #333366;
+	height: 20px;
+	padding: 12px 6px;
+	text-decoration: none;
+}
+
+.navInstituciones ul li a:hover{
+	background: #333366;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.navInstituciones ul li .navActivoInst{
+	background: #333366;
+	color: #FFF;
+	font-weight: bold;	
+}
+
+.pagContrInst{
+	padding:70px 15px;
+	text-align: center;
+}
+
+.textoDifNavInst{
+	padding: 40px 20px;
+}
+
+.textoDifNavInst p{
+	text-indent: 2em;
+}
+
+/*Estilos Contenido Derecho*/
+#map{
+	border: 2px solid #E5E5E5;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	height: 400px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.contentDer{
+	margin: 10px 0;
+	padding: 30px 4px;
+	width: 24%;
+}
+
+/*Unimos los 3 contenedores del body*/
+.contentIzq, .contentCent, .contentDer{
+	display: inline-block;
+	vertical-align: top;
+}
