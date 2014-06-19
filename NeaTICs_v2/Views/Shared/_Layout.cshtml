@@ -24,23 +24,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 header">
-                    <div class="col-sm-2 col-sm-offset-10 text-right">
-						<div class="btn-group sLenguage">
-                            @Html.Hidden("UrlSetCulture", @Url.Action("SetCulture", "Home"))
-                            <button type="button" class="btn btn-default btn-lang dropdown-toggle pull-right" data-toggle="dropdown">
-                                @Html.Hidden("CurrentCulture", @ViewContext.RouteData.Values["culture"])
-                                <span id="currentCulture"></span>
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-							</button>
-                            <ul class="dropdown-menu ddlLanguage" role="menu">
-							</ul>
-						</div>
-					</div>
-					<div class="col-sm-12">
+                    <div class="col-sm-12">
 						<div class="col-sm-9 logo">
 							<h1 class="text-logo">NEA TICs</h1>
 						</div>
-                        @RenderSection("DPerfil", required: false)
+                        <div class="col-sm-3">
+                            <div class="col-sm-12 text-right dropdownsHeader">
+						        <div class="btn-group sLanguage">
+                                    @Html.Hidden("UrlSetCulture", @Url.Action("SetCulture", "Home"))
+                                    <button type="button" class="btn btn-default btn-lang dropdown-toggle pull-right" data-toggle="dropdown">
+                                        @Html.Hidden("CurrentCulture", @ViewContext.RouteData.Values["culture"])
+                                        <span id="currentCulture"></span>
+                                        <span class="glyphicon glyphicon-chevron-right"></span>
+							        </button>
+                                    <ul class="dropdown-menu ddlLanguage" role="menu">
+							        </ul>
+						        </div>
+					        </div>
+                            @RenderSection("DPerfil", required: false)
+                        </div>
 					</div>
 					<div class="col-sm-12">
 						<div id="nav-ppal">
@@ -73,33 +75,30 @@
 					</div>
 				</div>
                 <div class="col-sm-12 wrapper">
-                    @RenderBody()
+                    <div class="container">
+                        @RenderBody()
+                    </div>
                     <div class="push"></div>
                 </div>
-                <div class="footer">
+                <div class="col-sm-12 footer">
                     <div class="container">
-                        <div class="col-sm-6">
-                            <ul class="nav navbar-nav footer-menu">
-                                <li class="active">
-                                    <a href="">Inicio</a>
-                                </li>
-                                <li>
-                                    <a href="">Acerca</a>
-                                </li>
-                                <li>
-                                    <a href="">Polot IT Chaco</a>
-                                </li>
-                                <li>
-                                    <a href="">Informatorio</a>
-                                </li>
-                                <li>
-                                    <a href="">Contacto</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-6 text-right siteInfo">
-                            Diseño: "Los #22" - Desarrollo: "Los Implementadores"|"ManiaTICs" ©Informatorio 2013
-                        </div>
+                        <ul class="nav navbar-nav footer-menu">
+                            <li class="active">
+                                <a href="">Inicio</a>
+                            </li>
+                            <li>
+                                <a href="">Acerca</a>
+                            </li>
+                            <li>
+                                <a href="">Polot IT Chaco</a>
+                            </li>
+                            <li>
+                                <a href="">Informatorio</a>
+                            </li>
+                            <li>
+                                <a href="">Contacto</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
