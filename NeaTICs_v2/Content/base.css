@@ -4,11 +4,6 @@ html, body
 {
     height: 100%;
     font-family: 'Roboto', Sans-Serif;
-    padding-bottom: 80px;
-}
-
-body{
-    margin-bottom: 80px;
 }
 
 .containerNEA {
@@ -37,4 +32,9 @@ body{
     left: 50%;
     margin: 0 auto;
     z-index: 2000;
+}
+
+.dropdownsHeader 
+{
+    padding: 0;
 }
