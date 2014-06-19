@@ -29,7 +29,8 @@ namespace NeaTICs_v2.Areas.Admin.Controllers
         public IEnumerable<ContactMessage> Get()
         {
             IList<ContactMessage> ContactMessages = unitOfWork.ContactMessageRepository.All().ToList();
-            return ContactMessages.AsEnumerable();
+            //Ordenado por fecha (El último mensaje mandado aparece al principio de la lista)
+            return ContactMessages.AsEnumerable().OrderByDescending(x=>x.Date);
         }
 
         //GET api/ContactMessage/5
