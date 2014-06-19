@@ -108,6 +108,9 @@ namespace NeaTICs_v2.Areas.Admin.Controllers
                         events.ImageUrl = ConfigurationManager.AppSettings["ImageUrl"] + "Eventos/" + name;
                         //Seteo la fecha de actualización con la fecha actual del sistema
                         events.UpdateAt = DateTime.Now;
+                        //Seteo nuevamente la hora de inicio y fin del evento pero con la fecha de creación
+                        events.StartAt = events.CreateAt.Date + events.StartAt.TimeOfDay;
+                        events.EndAt = events.CreateAt.Date + events.EndAt.TimeOfDay;
                         //Inserto nuevo evento en la BD
                         unitOfWork.EventsRepository.Insert(events);
                         //Guardo
