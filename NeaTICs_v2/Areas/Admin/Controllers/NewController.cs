@@ -26,7 +26,8 @@ namespace NeaTICs_v2.Areas.Admin.Controllers
         {
             //Método para traer todas las noticias de la BD
             var news = unitOfWork.NewsRepository.All();
-            return View(news.ToList());
+            //Ordenado por fecha de actualización y luego por fecha de creación
+            return View(news.ToList().OrderByDescending(x => x.UpdatedAt).ThenByDescending(x => x.CreatedAt));
         }
 
         //

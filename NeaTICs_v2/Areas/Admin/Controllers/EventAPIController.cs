@@ -27,7 +27,8 @@ namespace NeaTICs_v2.Areas.Admin.Controllers
         {
             //Método para traer todos los eventos de la BD
             var events = unitOfWork.EventsRepository.All();
-            return events.AsEnumerable();
+            //Ordenado por fecha de actualización y luego por fecha de creación
+            return events.AsEnumerable().OrderByDescending(x => x.UpdateAt).ThenByDescending(x => x.CreateAt);
         }
 
         // GET api/EventAPI/5
