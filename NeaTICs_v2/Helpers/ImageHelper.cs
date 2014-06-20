@@ -56,7 +56,7 @@ namespace NeaTICs_v2.Helpers
 
             //Si la imagen tiene una resolución muy baja se devuelve un error
             string[] strArray = { "S", "SI", "Si", "si", "Y", "YES", "Yes", "yes" };
-            if (strArray.Any(x => x == ConfigurationManager.AppSettings["ImageWeightControl"]))
+            if (strArray.Any(x => x == ConfigurationManager.AppSettings["ImageSizeControl"]))
             {
                 using (Image imagetemp = Image.FromStream(image.InputStream, true, true))
                 {

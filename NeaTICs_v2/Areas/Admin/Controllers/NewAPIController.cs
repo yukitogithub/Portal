@@ -28,7 +28,8 @@ namespace NeaTICs_v2.Areas.Admin.Controllers
         public IEnumerable<New> GetNews()
         {
             var news = unitOfWork.NewsRepository.All();
-            return news.AsEnumerable();
+            //Ordenado por fecha de actualización y luego por fecha de creación
+            return news.AsEnumerable().OrderByDescending(x => x.UpdatedAt).ThenByDescending(x => x.CreatedAt);
         }
 
         // GET api/NewAPI/5

@@ -27,7 +27,8 @@ namespace NeaTICs_v2.Areas.Admin.Controllers
         {
             //Método para traer todos los eventos de la BD
             var events = unitOfWork.EventsRepository.All();
-            return events.AsEnumerable();
+            //Ordenado por fecha de actualización y luego por fecha de creación
+            return events.AsEnumerable().OrderByDescending(x => x.UpdateAt).ThenByDescending(x => x.CreateAt);
         }
 
         // GET api/EventAPI/5
@@ -108,6 +109,9 @@ namespace NeaTICs_v2.Areas.Admin.Controllers
                         events.ImageUrl = ConfigurationManager.AppSettings["ImageUrl"] + "Eventos/" + name;
                         //Seteo la fecha de actualización con la fecha actual del sistema
                         events.UpdateAt = DateTime.Now;
+                        //Seteo nuevamente la hora de inicio y fin del evento pero con la fecha de creación
+                        events.StartAt = events.CreateAt.Date + events.StartAt.TimeOfDay;
+                        events.EndAt = events.CreateAt.Date + events.EndAt.TimeOfDay;
                         //Inserto nuevo evento en la BD
                         unitOfWork.EventsRepository.Insert(events);
                         //Guardo
