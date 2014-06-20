@@ -48,19 +48,19 @@
 						<div id="nav-ppal">
 							<ul class="nav navbar-nav menu-ppal">
                                 <li @activeMenu("Index")>
-                                    <a href="@Url.Action("Index", "Home")">Inicio</a>
+                                    <a href="@Url.Action("Index", "Home")">@Resources.resources.MenuItem_Home</a>
                                 </li>
                                 <li @activeMenu("About")>
-                                    <a href="@Url.Action("About", "Home")">Acerca</a>
+                                    <a href="@Url.Action("About", "Home")">@Resources.resources.MenuItem_About</a>
                                 </li> 
                                 <li @activeMenu("PoloITChaco")>
-                                    <a href="@Url.Action("PoloITChaco", "Home")">Polo IT Chaco</a>
+                                    <a href="@Url.Action("PoloITChaco", "Home")">@Resources.resources.MenuItem_PoloITChaco</a>
                                 </li>
                                 <li @activeMenu("Informatorio")>
-                                    <a href="@Url.Action("Informatorio", "Home")">Informatorio</a>
+                                    <a href="@Url.Action("Informatorio", "Home")">@Resources.resources.MenuItem_Informatorio</a>
                                 </li>
                                 <li @activeMenu("Contact")>
-                                    <a href="@Url.Action("Contact", "Home")">Contacto</a>
+                                    <a href="@Url.Action("Contact", "Home")">@Resources.resources.MenuItem_ContactUs</a>
                                 </li>
                             </ul>
 						</div>
@@ -70,7 +70,7 @@
 									<span class="glyphicon glyphicon-search"></span>
 								</button>
 							</div>
-                            <input type="text" class="form-control none-radiusborder border-search" placeholder="¿Qué buscas?">
+                            <input type="text" class="form-control none-radiusborder border-search" placeholder="@Resources.resources.MenuSearchBar">
 						</div>
 					</div>
 				</div>
@@ -82,6 +82,30 @@
                 </div>
                 <div class="col-sm-12 footer">
                     <div class="container">
+
+                        <div class="col-sm-6">
+                            <ul class="nav navbar-nav footer-menu">
+                                <li class="active">
+                                    <a href="">@Resources.resources.MenuItem_Home</a>
+                                </li>
+                                <li>
+                                    <a href="">@Resources.resources.MenuItem_About</a>
+                                </li>
+                                <li>
+                                    <a href="">@Resources.resources.MenuItem_PoloITChaco</a>
+                                </li>
+                                <li>
+                                    <a href="">@Resources.resources.MenuItem_Informatorio</a>
+                                </li>
+                                <li>
+                                    <a href="">@Resources.resources.MenuItem_ContactUs</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 text-right siteInfo">
+                            @Resources.resources.Footer_Development
+                        </div>
+
                         <ul class="nav navbar-nav footer-menu">
                             <li class="active">
                                 <a href="">Inicio</a>
