@@ -28,31 +28,31 @@
 <div class="col-sm-9">
     <div id="contact-icons" class="col-sm-5">
         <div class="polo-title">
-                <h1>@Resources.resources.ContactUsSecttion_LeftColumn</h1>
-                <h4>@Resources.resources.ContactUsSecttion_LeftColumn2</h4>
+                <h1>@Resources.ContactUsSecttion_LeftColumn</h1>
+                <h4>@Resources.ContactUsSecttion_LeftColumn2</h4>
             </div>
     </div>
     <form id="ContactForm" action="" method="post">
         <div class="col-sm-6 margin-content">
             <div class="inputs-form">
                 <div>
-                    <span id="cphContent_lblName">@Resources.Resources.NameContact</span>
-                    <input name="Name" type="text" id="Name" class="center-input" placeholder="@Resources.resources.ContactUsSection_NameInput" />
+                    <span id="cphContent_lblName">@Resources.ContactUsSection_NameLabel</span>
+                    <input name="Name" type="text" id="Name" class="center-input" placeholder="@Resources.ContactUsSection_NameInput" />
                 </div>
                 <div>
-                    <span id="cphContent_lblEmail">@Resources.Resources.EmailContact</span>
-                    <input name="Email" type="text" id="Email" class="center-input" placeholder="@Resources.resources.ContactUsSection_EmailInput" />
+                    <span id="cphContent_lblEmail">@Resources.ContactUsSection_EmailLabel</span>
+                    <input name="Email" type="text" id="Email" class="center-input" placeholder="@Resources.ContactUsSection_EmailInput" />
                 </div>
                 <div>
-                    <span id="cphContent_lblEmail">@Resources.Resources.SubjectContact</span>
-                    <input name="Subject" type="text" id="Subject" class="center-input" placeholder="@Resources.resources.ContactUsSection_SubjectInput" />
+                    <span id="cphContent_lblEmail">@Resources.ContactUsSection_SubjectLabel</span>
+                    <input name="Subject" type="text" id="Subject" class="center-input" placeholder="@Resources.ContactUsSection_SubjectInput" />
                 </div>
                 <div>
-                    <span id="cphContent_lblMessage">@Resources.Resources.MessageContact</span>
+                    <span id="cphContent_lblMessage">@Resources.ContactUsSection_MessageLabel</span>
                     <textarea name="Message" rows="6" cols="4" id="Message" class="center-textarea" placeholder="Ingrese el mensaje">
                     </textarea>
                 </div>
-                <input type="submit" name="SendContact" value="Enviar" id="SendContact" class="submit-contact pull-right" /> <!-- CAMBIO NOMBRE(no se acepta -) -->
+                <input type="submit" name="SendContact" value="@Resources.ContactUsSection_SubmiButton" id="SendContact" class="submit-contact pull-right" /> <!-- CAMBIO NOMBRE(no se acepta -) -->
             </div>
         </div>
     </form>

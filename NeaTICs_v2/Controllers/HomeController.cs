@@ -47,6 +47,11 @@ namespace NeaTICs_v2.Controllers
             return View();
         }
 
+        public ActionResult Instituciones()
+        {
+            return View();
+        }
+
         public ActionResult News()
         {
             return View();

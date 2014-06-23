@@ -14,11 +14,11 @@ namespace NeaTICs_v2.Areas.Admin
 
         public override void RegisterArea(AreaRegistrationContext context)
         {
-            context.MapRoute(
-                name: "Root", 
-                url: "{culture}/{controller}/{action}/{id}",
-                defaults: new { culture = "es", controller = "Home", action = "Index" }
-            );
+            //context.MapRoute(
+            //    name: "Root", 
+            //    url: "{culture}/{controller}/{action}/{id}",
+            //    defaults: new { culture = "es", controller = "Home", action = "Index" }
+            //);
 
             context.MapRoute(
                 name: "Admin_default",
