@@ -48,19 +48,19 @@
 						<div id="nav-ppal">
 							<ul class="nav navbar-nav menu-ppal">
                                 <li @activeMenu("Index")>
-                                    <a href="@Url.Action("Index", "Home")">@Resources.resources.MenuItem_Home</a>
+                                    <a href="@Url.Action("Index", "Home")">@Resources.MenuItem_Home</a>
                                 </li>
                                 <li @activeMenu("About")>
-                                    <a href="@Url.Action("About", "Home")">@Resources.resources.MenuItem_About</a>
+                                    <a href="@Url.Action("About", "Home")">@Resources.MenuItem_About</a>
                                 </li> 
                                 <li @activeMenu("PoloITChaco")>
-                                    <a href="@Url.Action("PoloITChaco", "Home")">@Resources.resources.MenuItem_PoloITChaco</a>
+                                    <a href="@Url.Action("PoloITChaco", "Home")">@Resources.MenuItem_PoloITChaco</a>
                                 </li>
                                 <li @activeMenu("Informatorio")>
-                                    <a href="@Url.Action("Informatorio", "Home")">@Resources.resources.MenuItem_Informatorio</a>
+                                    <a href="@Url.Action("Informatorio", "Home")">@Resources.MenuItem_Informatorio</a>
                                 </li>
                                 <li @activeMenu("Contact")>
-                                    <a href="@Url.Action("Contact", "Home")">@Resources.resources.MenuItem_ContactUs</a>
+                                    <a href="@Url.Action("Contact", "Home")">@Resources.MenuItem_ContactUs</a>
                                 </li>
                             </ul>
 						</div>
@@ -70,7 +70,7 @@
 									<span class="glyphicon glyphicon-search"></span>
 								</button>
 							</div>
-                            <input type="text" class="form-control none-radiusborder border-search" placeholder="@Resources.resources.MenuSearchBar">
+                            <input type="text" class="form-control none-radiusborder border-search" placeholder="@Resources.MenuSearchBar">
 						</div>
 					</div>
 				</div>
@@ -82,45 +82,21 @@
                 </div>
                 <div class="col-sm-12 footer">
                     <div class="container">
-
-                        <div class="col-sm-6">
-                            <ul class="nav navbar-nav footer-menu">
-                                <li class="active">
-                                    <a href="">@Resources.resources.MenuItem_Home</a>
-                                </li>
-                                <li>
-                                    <a href="">@Resources.resources.MenuItem_About</a>
-                                </li>
-                                <li>
-                                    <a href="">@Resources.resources.MenuItem_PoloITChaco</a>
-                                </li>
-                                <li>
-                                    <a href="">@Resources.resources.MenuItem_Informatorio</a>
-                                </li>
-                                <li>
-                                    <a href="">@Resources.resources.MenuItem_ContactUs</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-6 text-right siteInfo">
-                            @Resources.resources.Footer_Development
-                        </div>
-
                         <ul class="nav navbar-nav footer-menu">
                             <li class="active">
-                                <a href="">Inicio</a>
+                                <a href="">@Resources.MenuItem_Home</a>
                             </li>
                             <li>
-                                <a href="">Acerca</a>
+                                <a href="">@Resources.MenuItem_About</a>
                             </li>
                             <li>
-                                <a href="">Polot IT Chaco</a>
+                                <a href="">@Resources.MenuItem_PoloITChaco</a>
                             </li>
                             <li>
-                                <a href="">Informatorio</a>
+                                <a href="">@Resources.MenuItem_Informatorio</a>
                             </li>
                             <li>
-                                <a href="">Contacto</a>
+                                <a href="">@Resources.MenuItem_ContactUs</a>
                             </li>
                         </ul>
                     </div>

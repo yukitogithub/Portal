@@ -9,7 +9,7 @@ function inicio() {
 	$("#trayectInst").on("click",trayectInst);
 
 	function initialize() {
-		var myLatlng = new google.maps.LatLng(-27.4521506,-58.9861113);
+		var myLatlng = new google.maps.LatLng(-27.452031, -58.981001);
 		var mapOptions = {
 			zoom: 15,
 			center: myLatlng
@@ -19,7 +19,7 @@ function inicio() {
 		var marker = new google.maps.Marker({
 			position: myLatlng,
 			map: map,
-			title: 'Polo IT Chaco'
+			title: 'Universidad Tecnologica Nacional'
 		});
 	}
 

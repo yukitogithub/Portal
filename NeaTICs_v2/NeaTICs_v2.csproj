@@ -222,10 +222,12 @@
     <Content Include="Images\Pie-01.png" />
     <Content Include="Images\pie-carrusel-01.png" />
     <Content Include="Images\Redes_Sociales.png" />
+    <Content Include="Images\utn_logo.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\carousel.js" />
     <Content Include="Scripts\culture.js" />
+    <Content Include="Scripts\instituciones.js" />
     <Content Include="Scripts\jquery-1.11.0.min.js" />
     <Content Include="Scripts\jquery-1.9.0-vsdoc.js" />
     <Content Include="Scripts\jquery-1.9.0.js" />
@@ -310,6 +312,7 @@
     <Content Include="Views\Home\PoloITChaco.cshtml" />
     <Content Include="Views\Home\_DPerfil.cshtml" />
     <None Include="Properties\PublishProfiles\NeaTICs.pubxml" />
+    <Content Include="Views\Home\Instituciones.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
