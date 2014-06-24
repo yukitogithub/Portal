@@ -54,8 +54,8 @@
             </div>
         </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.ImageUrl, new { @class = "col-sm-2 control-label" })
+        <div class="form-group tooltip-examples">
+            <label class="col-sm-2 control-label" data-toogle="tooltip" data-original-title="Resolución optima: 1080 * 720 Tamaño de archivo recomendado: 5 Mb">Imagen</label>
 
             <div class="col-sm-8">
                 <input type="file" id="ImageToUpload" name="ImageToUpload" class="help-block" multiple="multiple" />
@@ -84,6 +84,12 @@
             lang: 'es',
             timepicker: false,
             format: 'd/m/Y'
+        });
+
+        $(document).ready(function () {
+            $(".tooltip-examples label").tooltip({
+                placement: 'bottom'
+            });
         });
     </script>
 }
