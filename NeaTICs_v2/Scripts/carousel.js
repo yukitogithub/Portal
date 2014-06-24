@@ -106,7 +106,7 @@ Carousel.prototype = {
             return date;
         };
 
-        $.get('http://www.neatics.com.ar/api/NewAPI', function (data) {
+        $.get('http://develop.neatics.com.ar/api/NewAPI', function (data) {
             $.each(data, function (key, value) {
                 if (value.Content == null) {
                     value.Content = '';
