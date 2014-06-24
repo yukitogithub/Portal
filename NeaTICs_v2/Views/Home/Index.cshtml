@@ -40,10 +40,10 @@
 	<div class="panel-news-events" >
 		<span class="btn-group-vertical links">
             <a href="@Url.Action("News")">
-                <input type="button" value="Noticias" class="btn btn-not-eve btnNoticias" />
+                <input type="button" value="@Resources.SliderFooter_NewsLabel" class="btn btn-not-eve btnNoticias" />
             </a>
             <a href="@Url.Action("Events")">
-                <input type="button" value="Eventos" class="btn btn-not-eve btnEventos" />
+                <input type="button" value="@Resources.SliderFooter_EventsLabel" class="btn btn-not-eve btnEventos" />
             </a>
 		</span>
 		<span class="date">
@@ -54,25 +54,25 @@
 			<div class="profiles">
 				<div class="btn-group nav-perfil">
 		            <button type="button" class="btn btn-default btn-perfil dropdown-toggle drop-profile" data-toggle="dropdown">
-		                Elegí tu perfil
+		                @Resources.Home_ProfilesList
 		                <span class="glyphicon glyphicon-chevron-right"></span>
 		            </button>
 		            <ul class="dropdown-menu dd-perfil">
 	                    <li class="p-desarrollador">
 	                        <a>
-	                            <input type="submit" name="ctl00$cphContent$btnProfileDesarrollador" value="Desarrollador" id="cphContent_btnProfileDesarrollador" class="item-dropdown">
+	                            <input type="submit" name="ctl00$cphContent$btnProfileDesarrollador" value="@Resources.Home_ProfileList_Developer" id="cphContent_btnProfileDesarrollador" class="item-dropdown">
 	                            <span class="glyphicon glyphicon-chevron-right pull-right"></span>
 	                        </a>
 	                    </li>
 		                <li class="p-estudiante">
 		                    <a>
-		                        <input type="submit" name="ctl00$cphContent$btnProfileEstudiante" value="Estudiante" id="cphContent_btnProfileEstudiante" class="item-dropdown" />
+		                        <input type="submit" name="ctl00$cphContent$btnProfileEstudiante" value="@Resources.Home_ProfileList_Student" id="cphContent_btnProfileEstudiante" class="item-dropdown" />
 		                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
 		                    </a>
 		                </li>
                         <li class="p-empresa">
                             <a>
-                                <input type="submit" name="ctl00$cphContent$btnProfileEmpresa" value="Empresa" id="cphContent_btnProfileEmpresa" class="item-dropdown" />
+                                <input type="submit" name="ctl00$cphContent$btnProfileEmpresa" value="@Resources.Home_ProfileList_Enterprise" id="cphContent_btnProfileEmpresa" class="item-dropdown" />
 		                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
                             </a>
 		                </li>

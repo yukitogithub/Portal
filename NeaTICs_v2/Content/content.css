@@ -6,7 +6,9 @@
 .wrapper
 {
     min-height: 100%;
-	height: auto !important;
+	height: auto;
+	margin: 0 auto -80px;
+	padding: 0 0 80px;
 }
 
 .contentIndex 
@@ -99,7 +101,7 @@
 	float: left;
 	height: 100%;
 	width: 25%;
-	padding: 10px;
+	padding: 10px 0;
 }
 
 .profiles {
@@ -116,6 +118,11 @@
 .social-icons {
 	height: 50%;
 	width: 100%;
+}
+
+.social-icons a 
+{
+    text-align: right;
 }
 
 .space-under-panel {
@@ -371,7 +378,7 @@
 }
 
 .carousel-inner {
-    height: 450px;
+    height: 300px;
 }
 
 .item-dropdown

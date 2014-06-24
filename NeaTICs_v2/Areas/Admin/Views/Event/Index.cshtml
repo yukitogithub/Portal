@@ -72,9 +72,9 @@
                 @Html.Raw("<img src=" + item.ImageUrl + " style='width: 100px;'/>")
             </td>
             <td>
-                @Html.ActionLink("Editar", "Edit", new { id = item.ID }) |
-                @Html.ActionLink("Detalles", "Details", new { id = item.ID }) |
-                @Html.ActionLink("Borrar", "Delete", new { id = item.ID })
+                @Html.ActionLink("Editar", "Edit", new { id = item.ID }, null) |
+                @Html.ActionLink("Detalles", "Details", new { id = item.ID }, null) |
+                @Html.ActionLink("Borrar", "Delete", new { id = item.ID }, null)
             </td>
         </tr>
     }
