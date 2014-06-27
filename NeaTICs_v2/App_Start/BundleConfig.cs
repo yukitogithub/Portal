@@ -56,7 +56,7 @@ namespace NeaTICs_v2.App_Start
             bundles.Add(new StyleBundle("~/Content/jquery-datetimepicker").Include(
                         "~/Content/jquery.datetimepicker.css"));
 
-            BundleTable.EnableOptimizations = true;
+            //BundleTable.EnableOptimizations = true;
         }
     }
 }
