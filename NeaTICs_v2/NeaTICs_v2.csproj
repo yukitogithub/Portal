@@ -200,8 +200,10 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\content.css" />
+    <Content Include="Content\desarrolladores.css" />
     <Content Include="Content\header.css" />
     <Content Include="Content\informatorio-form.css" />
+    <Content Include="Content\instituciones.css" />
     <Content Include="Content\jquery.datetimepicker.css" />
     <Content Include="Content\news-events.css" />
     <Content Include="Content\Site.css" />
@@ -227,6 +229,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\carousel.js" />
     <Content Include="Scripts\culture.js" />
+    <Content Include="Scripts\desarrolladores.js" />
     <Content Include="Scripts\instituciones.js" />
     <Content Include="Scripts\jquery-1.11.0.min.js" />
     <Content Include="Scripts\jquery-1.9.0-vsdoc.js" />
